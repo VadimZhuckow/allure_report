@@ -6,13 +6,13 @@
       "name" : "tests_paymentgate.test_get_info_payment",
       "children" : [ {
         "name" : "Тест запроса info для платежа",
-        "uid" : "838404aed99e9264",
+        "uid" : "5f782bfd263a1369",
         "parentUid" : "76afecdab125f710cc0a305b66bc291c",
         "status" : "passed",
         "time" : {
-          "start" : 1732535157900,
-          "stop" : 1732535158485,
-          "duration" : 585
+          "start" : 1732543493434,
+          "stop" : 1732543494276,
+          "duration" : 842
         },
         "flaky" : false,
         "newFailed" : false,
@@ -27,13 +27,13 @@
       "name" : "tests_fin_stats.test_fin_stats",
       "children" : [ {
         "name" : "test_get_fin_stats_dev[8-2024-40]",
-        "uid" : "36f09ac3022d8da0",
+        "uid" : "9e50a8422864915c",
         "parentUid" : "eba29f4c635f08d775cfc08e1b993525",
         "status" : "passed",
         "time" : {
-          "start" : 1732535159316,
-          "stop" : 1732535160002,
-          "duration" : 686
+          "start" : 1732543495220,
+          "stop" : 1732543496132,
+          "duration" : 912
         },
         "flaky" : false,
         "newFailed" : false,
@@ -44,13 +44,13 @@
         "parameters" : [ "40", "8", "2024" ]
       }, {
         "name" : "test_get_fin_stats_dev[9-2024-775]",
-        "uid" : "ef3430e1038c178d",
+        "uid" : "c1a5dbda3e150d2f",
         "parentUid" : "eba29f4c635f08d775cfc08e1b993525",
         "status" : "passed",
         "time" : {
-          "start" : 1732535160006,
-          "stop" : 1732535160567,
-          "duration" : 561
+          "start" : 1732543496136,
+          "stop" : 1732543496972,
+          "duration" : 836
         },
         "flaky" : false,
         "newFailed" : false,
@@ -61,13 +61,13 @@
         "parameters" : [ "775", "9", "2024" ]
       }, {
         "name" : "test_get_fin_stats_dev[10-2024-2]",
-        "uid" : "e1349f43c751406b",
+        "uid" : "6dddeb48b7444567",
         "parentUid" : "eba29f4c635f08d775cfc08e1b993525",
         "status" : "passed",
         "time" : {
-          "start" : 1732535160573,
-          "stop" : 1732535161177,
-          "duration" : 604
+          "start" : 1732543496977,
+          "stop" : 1732543497769,
+          "duration" : 792
         },
         "flaky" : false,
         "newFailed" : false,
