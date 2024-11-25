@@ -1,14 +1,14 @@
 {
   "uid" : "b1a8273437954620fa374b796ffaacdd",
   "children" : [ {
-    "name" : "test_get_info_payment",
-    "uid" : "20f6f737a7988868",
+    "name" : "Тест запроса info для платежа",
+    "uid" : "7e3b3b0c7a2d7de7",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1732531221230,
-      "stop" : 1732531222090,
-      "duration" : 860
+      "start" : 1732531367640,
+      "stop" : 1732531368202,
+      "duration" : 562
     },
     "flaky" : false,
     "newFailed" : false,
