@@ -1,0 +1,2 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Mon Nov 25 10:34:01 UTC 2024","Mon Nov 25 10:34:01 UTC 2024","634","tests.api.tests_paymentgate","test_get_info_payment","","","","test_get_info_payment",""

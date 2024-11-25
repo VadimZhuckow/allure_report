@@ -1,0 +1,11 @@
+[ {
+  "uid" : "cb2445ae951f417a",
+  "name" : "test_get_info_payment",
+  "time" : {
+    "start" : 1732530841044,
+    "stop" : 1732530841678,
+    "duration" : 634
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

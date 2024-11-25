@@ -1,0 +1,30 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "tests.api.tests_paymentgate",
+    "children" : [ {
+      "name" : "test_get_info_payment",
+      "children" : [ {
+        "name" : "test_get_info_payment",
+        "uid" : "cb2445ae951f417a",
+        "parentUid" : "ce4db841cbe54181f19bc26f8f7d271b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1732530841044,
+          "stop" : 1732530841678,
+          "duration" : 634
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ce4db841cbe54181f19bc26f8f7d271b"
+    } ],
+    "uid" : "a08b448141f599545d9093b6e8c2d835"
+  } ],
+  "name" : "suites"
+}
