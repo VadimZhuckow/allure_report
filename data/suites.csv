@@ -1,2 +1,2 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Mon Nov 25 11:16:30 UTC 2024","Mon Nov 25 11:16:31 UTC 2024","709","tests.api.tests_paymentgate","test_get_info_payment","","","","Тест запроса info для платежа","Тест проверяет запрос инфо для платежа API, Для апи тестов не добавляю шаги тк там чувствительная информация."
+"passed","Mon Nov 25 11:23:00 UTC 2024","Mon Nov 25 11:23:01 UTC 2024","863","tests.api.tests_paymentgate","test_get_info_payment","","","","Тест запроса info для платежа","Тест проверяет запрос инфо для платежа API, Для апи тестов не добавляю шаги тк там чувствительная информация."
