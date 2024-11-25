@@ -6,13 +6,13 @@
       "name" : "test_get_info_payment",
       "children" : [ {
         "name" : "Тест запроса info для платежа",
-        "uid" : "b9bf6d81389ed707",
+        "uid" : "b3c77ba7f9940991",
         "parentUid" : "ce4db841cbe54181f19bc26f8f7d271b",
         "status" : "passed",
         "time" : {
-          "start" : 1732533910333,
-          "stop" : 1732533911213,
-          "duration" : 880
+          "start" : 1732534548220,
+          "stop" : 1732534548809,
+          "duration" : 589
         },
         "flaky" : false,
         "newFailed" : false,
@@ -25,6 +25,65 @@
       "uid" : "ce4db841cbe54181f19bc26f8f7d271b"
     } ],
     "uid" : "a08b448141f599545d9093b6e8c2d835"
+  }, {
+    "name" : "tests.api.tests_fin_stats",
+    "children" : [ {
+      "name" : "test_fin_stats",
+      "children" : [ {
+        "name" : "test_get_fin_stats_dev[8-2024-40]",
+        "uid" : "a27fa2d9205af06e",
+        "parentUid" : "4172b1af15a6010fc89ed66f42c86e0e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1732534549535,
+          "stop" : 1732534550160,
+          "duration" : 625
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "40", "8", "2024" ]
+      }, {
+        "name" : "test_get_fin_stats_dev[9-2024-775]",
+        "uid" : "65ea8915c1daffe0",
+        "parentUid" : "4172b1af15a6010fc89ed66f42c86e0e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1732534550164,
+          "stop" : 1732534550709,
+          "duration" : 545
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "775", "9", "2024" ]
+      }, {
+        "name" : "test_get_fin_stats_dev[10-2024-2]",
+        "uid" : "ca629800c49e8cd0",
+        "parentUid" : "4172b1af15a6010fc89ed66f42c86e0e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1732534550714,
+          "stop" : 1732534551307,
+          "duration" : 593
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "2", "10", "2024" ]
+      } ],
+      "uid" : "4172b1af15a6010fc89ed66f42c86e0e"
+    } ],
+    "uid" : "63c5a8aa4aa485d616f9880f1800ad5c"
   } ],
   "name" : "suites"
 }

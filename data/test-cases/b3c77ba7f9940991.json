@@ -1,0 +1,137 @@
+{
+  "uid" : "b3c77ba7f9940991",
+  "name" : "Тест запроса info для платежа",
+  "fullName" : "tests.api.tests_paymentgate.test_get_info_payment#test_get_info_payment",
+  "historyId" : "26546f721fee533a9626437891adc169",
+  "time" : {
+    "start" : 1732534548220,
+    "stop" : 1732534548809,
+    "duration" : 589
+  },
+  "description" : "Тест проверяет запрос инфо для платежа API, Для апи тестов не добавляю шаги тк там чувствительная информация.",
+  "descriptionHtml" : "<p>Тест проверяет запрос инфо для платежа API, Для апи тестов не добавляю шаги тк там чувствительная информация.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "log_test_parameters",
+    "time" : {
+      "start" : 1732534548219,
+      "stop" : 1732534548220,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "payment_info_api_dev",
+    "time" : {
+      "start" : 1732534548220,
+      "stop" : 1732534548220,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "api_client_dev",
+    "time" : {
+      "start" : 1732534548220,
+      "stop" : 1732534548220,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "timer",
+    "time" : {
+      "start" : 1732534548220,
+      "stop" : 1732534548220,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "timer::0",
+    "time" : {
+      "start" : 1732534548811,
+      "stop" : 1732534548811,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "dev"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests.api.tests_paymentgate"
+  }, {
+    "name" : "suite",
+    "value" : "test_get_info_payment"
+  }, {
+    "name" : "host",
+    "value" : "fv-az1766-446"
+  }, {
+    "name" : "thread",
+    "value" : "2179-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.api.tests_paymentgate.test_get_info_payment"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "dev" ]
+  },
+  "source" : "b3c77ba7f9940991.json",
+  "parameterValues" : [ ]
+}

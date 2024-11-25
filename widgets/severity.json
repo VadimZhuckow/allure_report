@@ -1,10 +1,40 @@
 [ {
-  "uid" : "b9bf6d81389ed707",
+  "uid" : "b3c77ba7f9940991",
   "name" : "Тест запроса info для платежа",
   "time" : {
-    "start" : 1732533910333,
-    "stop" : 1732533911213,
-    "duration" : 880
+    "start" : 1732534548220,
+    "stop" : 1732534548809,
+    "duration" : 589
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a27fa2d9205af06e",
+  "name" : "test_get_fin_stats_dev[8-2024-40]",
+  "time" : {
+    "start" : 1732534549535,
+    "stop" : 1732534550160,
+    "duration" : 625
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ca629800c49e8cd0",
+  "name" : "test_get_fin_stats_dev[10-2024-2]",
+  "time" : {
+    "start" : 1732534550714,
+    "stop" : 1732534551307,
+    "duration" : 593
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "65ea8915c1daffe0",
+  "name" : "test_get_fin_stats_dev[9-2024-775]",
+  "time" : {
+    "start" : 1732534550164,
+    "stop" : 1732534550709,
+    "duration" : 545
   },
   "status" : "passed",
   "severity" : "normal"

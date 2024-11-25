@@ -1,26 +1,85 @@
 {
   "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
   "children" : [ {
-    "name" : "tests.api.tests_paymentgate.test_get_info_payment",
+    "name" : "tests.api",
     "children" : [ {
-      "name" : "Тест запроса info для платежа",
-      "uid" : "b9bf6d81389ed707",
-      "parentUid" : "76afecdab125f710cc0a305b66bc291c",
-      "status" : "passed",
-      "time" : {
-        "start" : 1732533910333,
-        "stop" : 1732533911213,
-        "duration" : 880
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ ]
+      "name" : "tests_paymentgate.test_get_info_payment",
+      "children" : [ {
+        "name" : "Тест запроса info для платежа",
+        "uid" : "b3c77ba7f9940991",
+        "parentUid" : "76afecdab125f710cc0a305b66bc291c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1732534548220,
+          "stop" : 1732534548809,
+          "duration" : 589
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "tests_paymentgate.test_get_info_payment"
+    }, {
+      "name" : "tests_fin_stats.test_fin_stats",
+      "children" : [ {
+        "name" : "test_get_fin_stats_dev[8-2024-40]",
+        "uid" : "a27fa2d9205af06e",
+        "parentUid" : "eba29f4c635f08d775cfc08e1b993525",
+        "status" : "passed",
+        "time" : {
+          "start" : 1732534549535,
+          "stop" : 1732534550160,
+          "duration" : 625
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "40", "8", "2024" ]
+      }, {
+        "name" : "test_get_fin_stats_dev[9-2024-775]",
+        "uid" : "65ea8915c1daffe0",
+        "parentUid" : "eba29f4c635f08d775cfc08e1b993525",
+        "status" : "passed",
+        "time" : {
+          "start" : 1732534550164,
+          "stop" : 1732534550709,
+          "duration" : 545
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "775", "9", "2024" ]
+      }, {
+        "name" : "test_get_fin_stats_dev[10-2024-2]",
+        "uid" : "ca629800c49e8cd0",
+        "parentUid" : "eba29f4c635f08d775cfc08e1b993525",
+        "status" : "passed",
+        "time" : {
+          "start" : 1732534550714,
+          "stop" : 1732534551307,
+          "duration" : 593
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "2", "10", "2024" ]
+      } ],
+      "uid" : "tests_fin_stats.test_fin_stats"
     } ],
-    "uid" : "tests.api.tests_paymentgate.test_get_info_payment"
+    "uid" : "tests.api"
   } ],
   "name" : "packages"
 }
