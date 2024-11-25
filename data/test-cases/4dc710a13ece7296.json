@@ -1,12 +1,12 @@
 {
-  "uid" : "223e8d3b26e505fc",
+  "uid" : "4dc710a13ece7296",
   "name" : "test_get_info_payment",
   "fullName" : "tests.api.tests_paymentgate.test_get_info_payment#test_get_info_payment",
   "historyId" : "26546f721fee533a9626437891adc169",
   "time" : {
-    "start" : 1732531037275,
-    "stop" : 1732531038143,
-    "duration" : 868
+    "start" : 1732531129732,
+    "stop" : 1732531130624,
+    "duration" : 892
   },
   "status" : "passed",
   "flaky" : false,
@@ -16,10 +16,10 @@
   "retriesCount" : 0,
   "retriesStatusChange" : false,
   "beforeStages" : [ {
-    "name" : "api_client_dev",
+    "name" : "log_test_parameters",
     "time" : {
-      "start" : 1732531037274,
-      "stop" : 1732531037274,
+      "start" : 1732531129731,
+      "stop" : 1732531129731,
       "duration" : 0
     },
     "status" : "passed",
@@ -31,10 +31,10 @@
     "shouldDisplayMessage" : false,
     "hasContent" : false
   }, {
-    "name" : "log_test_parameters",
+    "name" : "api_client_dev",
     "time" : {
-      "start" : 1732531037274,
-      "stop" : 1732531037274,
+      "start" : 1732531129732,
+      "stop" : 1732531129732,
       "duration" : 0
     },
     "status" : "passed",
@@ -48,8 +48,8 @@
   }, {
     "name" : "timer",
     "time" : {
-      "start" : 1732531037274,
-      "stop" : 1732531037274,
+      "start" : 1732531129732,
+      "stop" : 1732531129732,
       "duration" : 0
     },
     "status" : "passed",
@@ -63,8 +63,8 @@
   }, {
     "name" : "payment_info_api_dev",
     "time" : {
-      "start" : 1732531037274,
-      "stop" : 1732531037274,
+      "start" : 1732531129732,
+      "stop" : 1732531129732,
       "duration" : 0
     },
     "status" : "passed",
@@ -79,8 +79,8 @@
   "afterStages" : [ {
     "name" : "timer::0",
     "time" : {
-      "start" : 1732531038144,
-      "stop" : 1732531038144,
+      "start" : 1732531130625,
+      "stop" : 1732531130625,
       "duration" : 0
     },
     "status" : "passed",
@@ -103,10 +103,10 @@
     "value" : "test_get_info_payment"
   }, {
     "name" : "host",
-    "value" : "fv-az710-24"
+    "value" : "fv-az1368-2"
   }, {
     "name" : "thread",
-    "value" : "2185-MainThread"
+    "value" : "2174-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -130,6 +130,6 @@
     "categories" : [ ],
     "tags" : [ "dev" ]
   },
-  "source" : "223e8d3b26e505fc.json",
+  "source" : "4dc710a13ece7296.json",
   "parameterValues" : [ ]
 }

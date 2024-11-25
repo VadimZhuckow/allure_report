@@ -6,13 +6,13 @@
       "name" : "test_get_info_payment",
       "children" : [ {
         "name" : "test_get_info_payment",
-        "uid" : "223e8d3b26e505fc",
+        "uid" : "4dc710a13ece7296",
         "parentUid" : "ce4db841cbe54181f19bc26f8f7d271b",
         "status" : "passed",
         "time" : {
-          "start" : 1732531037275,
-          "stop" : 1732531038143,
-          "duration" : 868
+          "start" : 1732531129732,
+          "stop" : 1732531130624,
+          "duration" : 892
         },
         "flaky" : false,
         "newFailed" : false,
