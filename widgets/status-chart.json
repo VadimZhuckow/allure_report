@@ -1,10 +1,10 @@
 [ {
-  "uid" : "cb2445ae951f417a",
+  "uid" : "223e8d3b26e505fc",
   "name" : "test_get_info_payment",
   "time" : {
-    "start" : 1732530841044,
-    "stop" : 1732530841678,
-    "duration" : 634
+    "start" : 1732531037275,
+    "stop" : 1732531038143,
+    "duration" : 868
   },
   "status" : "passed",
   "severity" : "normal"
