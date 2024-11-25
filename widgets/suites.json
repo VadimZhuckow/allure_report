@@ -4,10 +4,10 @@
     "uid" : "a08b448141f599545d9093b6e8c2d835",
     "name" : "tests.api.tests_paymentgate",
     "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     }

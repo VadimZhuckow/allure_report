@@ -1,16 +1,18 @@
 {
-  "uid" : "199041a863ec3f2c",
+  "uid" : "5f463d1f04550453",
   "name" : "Тест запроса info для платежа",
   "fullName" : "tests.api.tests_paymentgate.test_get_info_payment#test_get_info_payment",
   "historyId" : "26546f721fee533a9626437891adc169",
   "time" : {
-    "start" : 1732532475593,
-    "stop" : 1732532476155,
-    "duration" : 562
+    "start" : 1732532827933,
+    "stop" : 1732532828478,
+    "duration" : 545
   },
   "description" : "Тест проверяет запрос инфо для платежа API, Для апи тестов не добавляю шаги тк там чувствительная информация.",
   "descriptionHtml" : "<p>Тест проверяет запрос инфо для платежа API, Для апи тестов не добавляю шаги тк там чувствительная информация.</p>\n",
-  "status" : "passed",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: Unexpected status code o success: 200\nassert 200 == 201\n +  where 200 = <Response [200]>.status_code",
+  "statusTrace" : "payment_info_api_dev = PaymentInfoAPI(base_url='https://api.sandbox.payplanet.com/', headers={'Authorization': 'Token 46a81fa9e4a28606fd7887eb0eb60a28122eb65e', 'Api-sign': 'df20c9729e5bf79143c24605dbb0dfee79d40907b4744e9c5ee246e2ded27bc9'})\n\n    @pytest.mark.dev\n    @allure.title(\"Тест запроса info для платежа\")\n    @allure.description(\"Тест проверяет запрос инфо для платежа API, Для апи тестов не добавляю шаги тк там чувствительная информация.\")\n    def test_get_info_payment(payment_info_api_dev):\n        expected_status_success = 201\n        expected_status_payment = 'error'\n        response_success = payment_info_api_dev.get_info_payment(info_payment_endpoint, tx)\n>       assert response_success.status_code == expected_status_success, f\"Unexpected status code o success: {response_success.status_code}\"\nE       AssertionError: Unexpected status code o success: 200\nE       assert 200 == 201\nE        +  where 200 = <Response [200]>.status_code\n\ntests/api/tests_paymentgate/test_get_info_payment.py:17: AssertionError",
   "flaky" : false,
   "newFailed" : false,
   "newBroken" : false,
@@ -18,10 +20,25 @@
   "retriesCount" : 0,
   "retriesStatusChange" : false,
   "beforeStages" : [ {
+    "name" : "timer",
+    "time" : {
+      "start" : 1732532827932,
+      "stop" : 1732532827932,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
     "name" : "api_client_dev",
     "time" : {
-      "start" : 1732532475593,
-      "stop" : 1732532475593,
+      "start" : 1732532827932,
+      "stop" : 1732532827932,
       "duration" : 0
     },
     "status" : "passed",
@@ -35,8 +52,8 @@
   }, {
     "name" : "payment_info_api_dev",
     "time" : {
-      "start" : 1732532475593,
-      "stop" : 1732532475593,
+      "start" : 1732532827932,
+      "stop" : 1732532827932,
       "duration" : 0
     },
     "status" : "passed",
@@ -50,23 +67,8 @@
   }, {
     "name" : "log_test_parameters",
     "time" : {
-      "start" : 1732532475593,
-      "stop" : 1732532475593,
-      "duration" : 0
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
-  }, {
-    "name" : "timer",
-    "time" : {
-      "start" : 1732532475593,
-      "stop" : 1732532475593,
+      "start" : 1732532827932,
+      "stop" : 1732532827932,
       "duration" : 0
     },
     "status" : "passed",
@@ -81,8 +83,8 @@
   "afterStages" : [ {
     "name" : "timer::0",
     "time" : {
-      "start" : 1732532476156,
-      "stop" : 1732532476156,
+      "start" : 1732532828505,
+      "stop" : 1732532828505,
       "duration" : 0
     },
     "status" : "passed",
@@ -105,10 +107,10 @@
     "value" : "test_get_info_payment"
   }, {
     "name" : "host",
-    "value" : "fv-az1089-580"
+    "value" : "fv-az1391-476"
   }, {
     "name" : "thread",
-    "value" : "2187-MainThread"
+    "value" : "2170-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -129,9 +131,13 @@
   "extra" : {
     "severity" : "normal",
     "retries" : [ ],
-    "categories" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
     "tags" : [ "dev" ]
   },
-  "source" : "199041a863ec3f2c.json",
+  "source" : "5f463d1f04550453.json",
   "parameterValues" : [ ]
 }

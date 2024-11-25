@@ -1,18 +1,18 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "children" : [ {
-    "name" : "fv-az1089-580",
+    "name" : "fv-az1391-476",
     "children" : [ {
-      "name" : "2187-MainThread",
+      "name" : "2170-MainThread",
       "children" : [ {
         "name" : "Тест запроса info для платежа",
-        "uid" : "199041a863ec3f2c",
-        "parentUid" : "20a0ad83e4763821d29089635d97b0da",
-        "status" : "passed",
+        "uid" : "5f463d1f04550453",
+        "parentUid" : "290736ada7344e78c7d214ae9f9fa257",
+        "status" : "failed",
         "time" : {
-          "start" : 1732532475593,
-          "stop" : 1732532476155,
-          "duration" : 562
+          "start" : 1732532827933,
+          "stop" : 1732532828478,
+          "duration" : 545
         },
         "flaky" : false,
         "newFailed" : false,
@@ -22,9 +22,9 @@
         "retriesStatusChange" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "20a0ad83e4763821d29089635d97b0da"
+      "uid" : "290736ada7344e78c7d214ae9f9fa257"
     } ],
-    "uid" : "f9599c23aac2507bac3dc2401c3e51ea"
+    "uid" : "c1842d5758d4afcf209f3c4d6cca7a5c"
   } ],
   "name" : "timeline"
 }
