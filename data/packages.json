@@ -4,13 +4,13 @@
     "name" : "tests.api.tests_paymentgate.test_get_info_payment",
     "children" : [ {
       "name" : "Тест запроса info для платежа",
-      "uid" : "ccc96d43329170aa",
+      "uid" : "20a0d9a97071e91b",
       "parentUid" : "76afecdab125f710cc0a305b66bc291c",
       "status" : "passed",
       "time" : {
-        "start" : 1732532037317,
-        "stop" : 1732532038041,
-        "duration" : 724
+        "start" : 1732532134748,
+        "stop" : 1732532135615,
+        "duration" : 867
       },
       "flaky" : false,
       "newFailed" : false,
