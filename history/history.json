@@ -1,21 +1,20 @@
 {
   "26546f721fee533a9626437891adc169" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "5f463d1f04550453",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: Unexpected status code o success: 200\nassert 200 == 201\n +  where 200 = <Response [200]>.status_code",
+      "uid" : "329831b6edc342ff",
+      "status" : "passed",
       "time" : {
-        "start" : 1732532827933,
-        "stop" : 1732532828478,
-        "duration" : 545
+        "start" : 1732533036608,
+        "stop" : 1732533037232,
+        "duration" : 624
       }
     } ]
   }

@@ -1,30 +1,5 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
-  "children" : [ {
-    "name" : "Product defects",
-    "children" : [ {
-      "name" : "AssertionError: Unexpected status code o success: 200\nassert 200 == 201\n +  where 200 = <Response [200]>.status_code",
-      "children" : [ {
-        "name" : "Тест запроса info для платежа",
-        "uid" : "5f463d1f04550453",
-        "parentUid" : "3d7ebb93a022bf72d903f1c46132ec70",
-        "status" : "failed",
-        "time" : {
-          "start" : 1732532827933,
-          "stop" : 1732532828478,
-          "duration" : 545
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "3d7ebb93a022bf72d903f1c46132ec70"
-    } ],
-    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
-  } ],
+  "children" : [ ],
   "name" : "categories"
 }
