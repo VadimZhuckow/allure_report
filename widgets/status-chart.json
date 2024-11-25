@@ -1,10 +1,10 @@
 [ {
-  "uid" : "502e296a39ae6240",
+  "uid" : "b9bf6d81389ed707",
   "name" : "Тест запроса info для платежа",
   "time" : {
-    "start" : 1732533780585,
-    "stop" : 1732533781448,
-    "duration" : 863
+    "start" : 1732533910333,
+    "stop" : 1732533911213,
+    "duration" : 880
   },
   "status" : "passed",
   "severity" : "normal"

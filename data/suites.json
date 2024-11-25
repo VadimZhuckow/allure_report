@@ -6,13 +6,13 @@
       "name" : "test_get_info_payment",
       "children" : [ {
         "name" : "Тест запроса info для платежа",
-        "uid" : "502e296a39ae6240",
+        "uid" : "b9bf6d81389ed707",
         "parentUid" : "ce4db841cbe54181f19bc26f8f7d271b",
         "status" : "passed",
         "time" : {
-          "start" : 1732533780585,
-          "stop" : 1732533781448,
-          "duration" : 863
+          "start" : 1732533910333,
+          "stop" : 1732533911213,
+          "duration" : 880
         },
         "flaky" : false,
         "newFailed" : false,
