@@ -1,15 +1,15 @@
 {
-  "uid" : "4dbba24134b1e7c1",
-  "name" : "Тест запроса info для платежа",
-  "fullName" : "tests.api.tests_paymentgate.test_get_info_payment#test_get_info_payment",
-  "historyId" : "26546f721fee533a9626437891adc169",
+  "uid" : "e7e8d7d38e5f5149",
+  "name" : "Тест изменения пароля",
+  "fullName" : "tests.api.test_password.test_change_password#test_change_pass_dev",
+  "historyId" : "4924d299a9f4c6649a9c17ed30febb0b",
   "time" : {
-    "start" : 1732618404750,
-    "stop" : 1732618405306,
-    "duration" : 556
+    "start" : 1732618983999,
+    "stop" : 1732618984830,
+    "duration" : 831
   },
-  "description" : "Тест проверяет запрос инфо для платежа API, Для апи тестов не добавляю шаги тк там чувствительная информация.",
-  "descriptionHtml" : "<p>Тест проверяет запрос инфо для платежа API, Для апи тестов не добавляю шаги тк там чувствительная информация.</p>\n",
+  "description" : "Тест проверяет запрос на смену пароля по API.",
+  "descriptionHtml" : "<p>Тест проверяет запрос на смену пароля по API.</p>\n",
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
@@ -18,11 +18,11 @@
   "retriesCount" : 0,
   "retriesStatusChange" : false,
   "beforeStages" : [ {
-    "name" : "log_test_parameters",
+    "name" : "api_client_dev",
     "time" : {
-      "start" : 1732618404749,
-      "stop" : 1732618404749,
-      "duration" : 0
+      "start" : 1732618983998,
+      "stop" : 1732618983999,
+      "duration" : 1
     },
     "status" : "passed",
     "steps" : [ ],
@@ -35,8 +35,8 @@
   }, {
     "name" : "timer",
     "time" : {
-      "start" : 1732618404749,
-      "stop" : 1732618404749,
+      "start" : 1732618983998,
+      "stop" : 1732618983998,
       "duration" : 0
     },
     "status" : "passed",
@@ -48,10 +48,10 @@
     "shouldDisplayMessage" : false,
     "hasContent" : false
   }, {
-    "name" : "payment_info_api_dev",
+    "name" : "log_test_parameters",
     "time" : {
-      "start" : 1732618404750,
-      "stop" : 1732618404750,
+      "start" : 1732618983998,
+      "stop" : 1732618983998,
       "duration" : 0
     },
     "status" : "passed",
@@ -63,10 +63,10 @@
     "shouldDisplayMessage" : false,
     "hasContent" : false
   }, {
-    "name" : "api_client_dev",
+    "name" : "security_api_dev",
     "time" : {
-      "start" : 1732618404750,
-      "stop" : 1732618404750,
+      "start" : 1732618983999,
+      "stop" : 1732618983999,
       "duration" : 0
     },
     "status" : "passed",
@@ -78,11 +78,40 @@
     "shouldDisplayMessage" : false,
     "hasContent" : false
   } ],
+  "testStage" : {
+    "description" : "Тест проверяет запрос на смену пароля по API.",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Выполнение теста смены пароля по API",
+      "time" : {
+        "start" : 1732618983999,
+        "stop" : 1732618984830,
+        "duration" : 831
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "security_api_dev",
+        "value" : "SecurityAPI(base_url='https://api.sandbox.payplanet.com/', headers={'Authorization': 'Token 46a81fa9e4a28606fd7887eb0eb60a28122eb65e'})"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
   "afterStages" : [ {
     "name" : "timer::0",
     "time" : {
-      "start" : 1732618405307,
-      "stop" : 1732618405307,
+      "start" : 1732618984832,
+      "stop" : 1732618984832,
       "duration" : 0
     },
     "status" : "passed",
@@ -99,16 +128,16 @@
     "value" : "dev"
   }, {
     "name" : "parentSuite",
-    "value" : "tests.api.tests_paymentgate"
+    "value" : "tests.api.test_password"
   }, {
     "name" : "suite",
-    "value" : "test_get_info_payment"
+    "value" : "test_change_password"
   }, {
     "name" : "host",
-    "value" : "fv-az1728-984"
+    "value" : "fv-az1651-308"
   }, {
     "name" : "thread",
-    "value" : "2159-MainThread"
+    "value" : "2145-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -117,7 +146,7 @@
     "value" : "cpython3"
   }, {
     "name" : "package",
-    "value" : "tests.api.tests_paymentgate.test_get_info_payment"
+    "value" : "tests.api.test_password.test_change_password"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -132,6 +161,6 @@
     "categories" : [ ],
     "tags" : [ "dev" ]
   },
-  "source" : "4dbba24134b1e7c1.json",
+  "source" : "e7e8d7d38e5f5149.json",
   "parameterValues" : [ ]
 }
