@@ -6,13 +6,13 @@
       "name" : "test_get_info_payment",
       "children" : [ {
         "name" : "Тест запроса info для платежа",
-        "uid" : "50bb8a0ad6044c3f",
+        "uid" : "1e6da569fe44637d",
         "parentUid" : "ce4db841cbe54181f19bc26f8f7d271b",
         "status" : "passed",
         "time" : {
-          "start" : 1732605895235,
-          "stop" : 1732605896102,
-          "duration" : 867
+          "start" : 1732612739416,
+          "stop" : 1732612740215,
+          "duration" : 799
         },
         "flaky" : false,
         "newFailed" : false,
@@ -31,13 +31,13 @@
       "name" : "test_fin_stats",
       "children" : [ {
         "name" : "test_get_fin_stats_dev[8-2024-40]",
-        "uid" : "5802615e270adccf",
+        "uid" : "5a3a646c9fe63b99",
         "parentUid" : "4172b1af15a6010fc89ed66f42c86e0e",
         "status" : "passed",
         "time" : {
-          "start" : 1732605896954,
-          "stop" : 1732605897861,
-          "duration" : 907
+          "start" : 1732612741133,
+          "stop" : 1732612742008,
+          "duration" : 875
         },
         "flaky" : false,
         "newFailed" : false,
@@ -48,13 +48,13 @@
         "parameters" : [ "40", "8", "2024" ]
       }, {
         "name" : "test_get_fin_stats_dev[9-2024-775]",
-        "uid" : "5c92031c93d18587",
+        "uid" : "2a417737046a3b10",
         "parentUid" : "4172b1af15a6010fc89ed66f42c86e0e",
         "status" : "passed",
         "time" : {
-          "start" : 1732605897868,
-          "stop" : 1732605898724,
-          "duration" : 856
+          "start" : 1732612742012,
+          "stop" : 1732612742835,
+          "duration" : 823
         },
         "flaky" : false,
         "newFailed" : false,
@@ -65,13 +65,13 @@
         "parameters" : [ "775", "9", "2024" ]
       }, {
         "name" : "test_get_fin_stats_dev[10-2024-2]",
-        "uid" : "a97054b43f8dd214",
+        "uid" : "f3ba24bf873d326",
         "parentUid" : "4172b1af15a6010fc89ed66f42c86e0e",
         "status" : "passed",
         "time" : {
-          "start" : 1732605898730,
-          "stop" : 1732605899522,
-          "duration" : 792
+          "start" : 1732612742840,
+          "stop" : 1732612743624,
+          "duration" : 784
         },
         "flaky" : false,
         "newFailed" : false,
@@ -84,6 +84,31 @@
       "uid" : "4172b1af15a6010fc89ed66f42c86e0e"
     } ],
     "uid" : "63c5a8aa4aa485d616f9880f1800ad5c"
+  }, {
+    "name" : "tests.api.test_password",
+    "children" : [ {
+      "name" : "test_change_password",
+      "children" : [ {
+        "name" : "Тест изменения пароля",
+        "uid" : "767f70fa65638df9",
+        "parentUid" : "22591959f2f2d7a35c32eb2262eafecc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1732612744445,
+          "stop" : 1732612745395,
+          "duration" : 950
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "22591959f2f2d7a35c32eb2262eafecc"
+    } ],
+    "uid" : "aa96935edd0528c30e9b88df1ee09e74"
   } ],
   "name" : "suites"
 }
