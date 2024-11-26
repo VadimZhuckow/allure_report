@@ -1,12 +1,12 @@
 {
-  "uid" : "6ea51b7e8fe6a3a7",
+  "uid" : "7a306d7cb4d62f31",
   "name" : "Тест изменения пароля",
   "fullName" : "tests.api.test_password.test_change_password#test_change_pass_dev",
   "historyId" : "4924d299a9f4c6649a9c17ed30febb0b",
   "time" : {
-    "start" : 1732616413678,
-    "stop" : 1732616414527,
-    "duration" : 849
+    "start" : 1732616668042,
+    "stop" : 1732616668839,
+    "duration" : 797
   },
   "description" : "Тест проверяет запрос на смену пароля по API.",
   "descriptionHtml" : "<p>Тест проверяет запрос на смену пароля по API.</p>\n",
@@ -20,23 +20,8 @@
   "beforeStages" : [ {
     "name" : "log_test_parameters",
     "time" : {
-      "start" : 1732616413677,
-      "stop" : 1732616413677,
-      "duration" : 0
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
-  }, {
-    "name" : "timer",
-    "time" : {
-      "start" : 1732616413678,
-      "stop" : 1732616413678,
+      "start" : 1732616668040,
+      "stop" : 1732616668040,
       "duration" : 0
     },
     "status" : "passed",
@@ -50,8 +35,8 @@
   }, {
     "name" : "security_api_dev",
     "time" : {
-      "start" : 1732616413678,
-      "stop" : 1732616413678,
+      "start" : 1732616668041,
+      "stop" : 1732616668041,
       "duration" : 0
     },
     "status" : "passed",
@@ -65,8 +50,23 @@
   }, {
     "name" : "api_client_dev",
     "time" : {
-      "start" : 1732616413678,
-      "stop" : 1732616413678,
+      "start" : 1732616668041,
+      "stop" : 1732616668041,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "timer",
+    "time" : {
+      "start" : 1732616668041,
+      "stop" : 1732616668041,
       "duration" : 0
     },
     "status" : "passed",
@@ -84,9 +84,9 @@
     "steps" : [ {
       "name" : "Выполнение теста смены пароля по API",
       "time" : {
-        "start" : 1732616413678,
-        "stop" : 1732616414527,
-        "duration" : 849
+        "start" : 1732616668042,
+        "stop" : 1732616668839,
+        "duration" : 797
       },
       "status" : "passed",
       "steps" : [ ],
@@ -110,8 +110,8 @@
   "afterStages" : [ {
     "name" : "timer::0",
     "time" : {
-      "start" : 1732616414529,
-      "stop" : 1732616414529,
+      "start" : 1732616668840,
+      "stop" : 1732616668840,
       "duration" : 0
     },
     "status" : "passed",
@@ -134,10 +134,10 @@
     "value" : "test_change_password"
   }, {
     "name" : "host",
-    "value" : "fv-az1813-888"
+    "value" : "fv-az1056-1"
   }, {
     "name" : "thread",
-    "value" : "2194-MainThread"
+    "value" : "2168-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -161,6 +161,6 @@
     "categories" : [ ],
     "tags" : [ "dev" ]
   },
-  "source" : "6ea51b7e8fe6a3a7.json",
+  "source" : "7a306d7cb4d62f31.json",
   "parameterValues" : [ ]
 }

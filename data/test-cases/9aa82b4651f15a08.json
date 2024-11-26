@@ -1,12 +1,12 @@
 {
-  "uid" : "f8d0f608947b816c",
-  "name" : "test_get_filters_payout_dev[8-2024-84]",
-  "fullName" : "tests.api.tests_filters.test_filters_payout#test_get_filters_payout_dev",
-  "historyId" : "c2f99c473f30e2189b7672ac3d79a7fb",
+  "uid" : "9aa82b4651f15a08",
+  "name" : "test_send_registry_dev[apex69knight@gmail.com-2024-09-01 00:00:00-2024-09-30 23:59:59-174-200-Starting send registry]",
+  "fullName" : "tests.api.tests_registry.test_send_registry#test_send_registry_dev",
+  "historyId" : "91a00621daf046a93d89c8f2297f1e78",
   "time" : {
-    "start" : 1732616416661,
-    "stop" : 1732616417266,
-    "duration" : 605
+    "start" : 1732616675157,
+    "stop" : 1732616675718,
+    "duration" : 561
   },
   "status" : "passed",
   "flaky" : false,
@@ -18,38 +18,8 @@
   "beforeStages" : [ {
     "name" : "api_client_dev",
     "time" : {
-      "start" : 1732616416660,
-      "stop" : 1732616416660,
-      "duration" : 0
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
-  }, {
-    "name" : "filters_api_dev",
-    "time" : {
-      "start" : 1732616416660,
-      "stop" : 1732616416660,
-      "duration" : 0
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
-  }, {
-    "name" : "log_test_parameters",
-    "time" : {
-      "start" : 1732616416660,
-      "stop" : 1732616416660,
+      "start" : 1732616675156,
+      "stop" : 1732616675156,
       "duration" : 0
     },
     "status" : "passed",
@@ -63,8 +33,38 @@
   }, {
     "name" : "timer",
     "time" : {
-      "start" : 1732616416660,
-      "stop" : 1732616416660,
+      "start" : 1732616675156,
+      "stop" : 1732616675156,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "registry_api_dev",
+    "time" : {
+      "start" : 1732616675156,
+      "stop" : 1732616675156,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "log_test_parameters",
+    "time" : {
+      "start" : 1732616675156,
+      "stop" : 1732616675156,
       "duration" : 0
     },
     "status" : "passed",
@@ -79,8 +79,8 @@
   "afterStages" : [ {
     "name" : "timer::0",
     "time" : {
-      "start" : 1732616417268,
-      "stop" : 1732616417268,
+      "start" : 1732616675721,
+      "stop" : 1732616675721,
       "duration" : 0
     },
     "status" : "passed",
@@ -97,22 +97,22 @@
     "value" : "dev"
   }, {
     "name" : "tag",
-    "value" : "regress"
+    "value" : "send_registry"
   }, {
     "name" : "tag",
-    "value" : "payment"
+    "value" : "regress"
   }, {
     "name" : "parentSuite",
-    "value" : "tests.api.tests_filters"
+    "value" : "tests.api.tests_registry"
   }, {
     "name" : "suite",
-    "value" : "test_filters_payout"
+    "value" : "test_send_registry"
   }, {
     "name" : "host",
-    "value" : "fv-az1813-888"
+    "value" : "fv-az1056-1"
   }, {
     "name" : "thread",
-    "value" : "2194-MainThread"
+    "value" : "2168-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -121,20 +121,29 @@
     "value" : "cpython3"
   }, {
     "name" : "package",
-    "value" : "tests.api.tests_filters.test_filters_payout"
+    "value" : "tests.api.tests_registry.test_send_registry"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
   } ],
   "parameters" : [ {
-    "name" : "expected_count",
-    "value" : "84"
+    "name" : "date_from",
+    "value" : "'2024-09-01 00:00:00'"
   }, {
-    "name" : "month",
-    "value" : "8"
+    "name" : "date_to",
+    "value" : "'2024-09-30 23:59:59'"
   }, {
-    "name" : "year",
-    "value" : "2024"
+    "name" : "email",
+    "value" : "'apex69knight@gmail.com'"
+  }, {
+    "name" : "endpoint",
+    "value" : "174"
+  }, {
+    "name" : "expected_status",
+    "value" : "200"
+  }, {
+    "name" : "expected_substring",
+    "value" : "'Starting send registry'"
   } ],
   "links" : [ ],
   "hidden" : false,
@@ -143,8 +152,8 @@
     "severity" : "normal",
     "retries" : [ ],
     "categories" : [ ],
-    "tags" : [ "dev", "regress", "payment" ]
+    "tags" : [ "dev", "regress", "send_registry" ]
   },
-  "source" : "f8d0f608947b816c.json",
-  "parameterValues" : [ "84", "8", "2024" ]
+  "source" : "9aa82b4651f15a08.json",
+  "parameterValues" : [ "'2024-09-01 00:00:00'", "'2024-09-30 23:59:59'", "'apex69knight@gmail.com'", "174", "200", "'Starting send registry'" ]
 }
