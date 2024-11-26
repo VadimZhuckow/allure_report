@@ -1,12 +1,12 @@
 {
-  "uid" : "1594b70326de0b45",
-  "name" : "test_get_fin_stats_dev[8-2024-40]",
-  "fullName" : "tests.api.tests_fin_stats.test_fin_stats#test_get_fin_stats_dev",
-  "historyId" : "7d37e9491750020c784bd12f9edfeafd",
+  "uid" : "c4669e7584d9dfa9",
+  "name" : "test_get_filters_payout_dev[8-2024-84]",
+  "fullName" : "tests.api.tests_filters.test_filters_payout#test_get_filters_payout_dev",
+  "historyId" : "c2f99c473f30e2189b7672ac3d79a7fb",
   "time" : {
-    "start" : 1732622302262,
-    "stop" : 1732622302836,
-    "duration" : 574
+    "start" : 1732625326174,
+    "stop" : 1732625326871,
+    "duration" : 697
   },
   "status" : "passed",
   "flaky" : false,
@@ -18,38 +18,8 @@
   "beforeStages" : [ {
     "name" : "timer",
     "time" : {
-      "start" : 1732622302261,
-      "stop" : 1732622302261,
-      "duration" : 0
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
-  }, {
-    "name" : "finstats_api_dev",
-    "time" : {
-      "start" : 1732622302261,
-      "stop" : 1732622302261,
-      "duration" : 0
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
-  }, {
-    "name" : "api_client_dev",
-    "time" : {
-      "start" : 1732622302261,
-      "stop" : 1732622302261,
+      "start" : 1732625326173,
+      "stop" : 1732625326173,
       "duration" : 0
     },
     "status" : "passed",
@@ -63,8 +33,38 @@
   }, {
     "name" : "log_test_parameters",
     "time" : {
-      "start" : 1732622302261,
-      "stop" : 1732622302261,
+      "start" : 1732625326173,
+      "stop" : 1732625326173,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "filters_api_dev",
+    "time" : {
+      "start" : 1732625326173,
+      "stop" : 1732625326173,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "api_client_dev",
+    "time" : {
+      "start" : 1732625326173,
+      "stop" : 1732625326173,
       "duration" : 0
     },
     "status" : "passed",
@@ -79,8 +79,8 @@
   "afterStages" : [ {
     "name" : "timer::0",
     "time" : {
-      "start" : 1732622302838,
-      "stop" : 1732622302838,
+      "start" : 1732625326875,
+      "stop" : 1732625326875,
       "duration" : 0
     },
     "status" : "passed",
@@ -94,25 +94,25 @@
   } ],
   "labels" : [ {
     "name" : "tag",
-    "value" : "regress"
-  }, {
-    "name" : "tag",
     "value" : "dev"
   }, {
     "name" : "tag",
-    "value" : "stats"
+    "value" : "regress"
+  }, {
+    "name" : "tag",
+    "value" : "payment"
   }, {
     "name" : "parentSuite",
-    "value" : "tests.api.tests_fin_stats"
+    "value" : "tests.api.tests_filters"
   }, {
     "name" : "suite",
-    "value" : "test_fin_stats"
+    "value" : "test_filters_payout"
   }, {
     "name" : "host",
-    "value" : "fv-az1544-313"
+    "value" : "fv-az1055-285"
   }, {
     "name" : "thread",
-    "value" : "2237-MainThread"
+    "value" : "2164-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -121,14 +121,14 @@
     "value" : "cpython3"
   }, {
     "name" : "package",
-    "value" : "tests.api.tests_fin_stats.test_fin_stats"
+    "value" : "tests.api.tests_filters.test_filters_payout"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
   } ],
   "parameters" : [ {
     "name" : "expected_count",
-    "value" : "40"
+    "value" : "84"
   }, {
     "name" : "month",
     "value" : "8"
@@ -143,8 +143,8 @@
     "severity" : "normal",
     "retries" : [ ],
     "categories" : [ ],
-    "tags" : [ "dev", "stats", "regress" ]
+    "tags" : [ "dev", "regress", "payment" ]
   },
-  "source" : "1594b70326de0b45.json",
-  "parameterValues" : [ "40", "8", "2024" ]
+  "source" : "c4669e7584d9dfa9.json",
+  "parameterValues" : [ "84", "8", "2024" ]
 }
