@@ -9,31 +9,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "650200632cae421f",
+      "uid" : "e196b9201c6b1bd4",
       "status" : "passed",
       "time" : {
-        "start" : 1732618989707,
-        "stop" : 1732618990337,
-        "duration" : 630
-      }
-    } ]
-  },
-  "8fd76fab8b3cad900ce07a13cdcc9351" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "ddcabd0df14c6f7b",
-      "status" : "passed",
-      "time" : {
-        "start" : 1732618984835,
-        "stop" : 1732618985570,
-        "duration" : 735
+        "start" : 1732619077858,
+        "stop" : 1732619078429,
+        "duration" : 571
       }
     } ]
   },
@@ -47,12 +28,31 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "e7e8d7d38e5f5149",
+      "uid" : "1055cf62b1a2f084",
       "status" : "passed",
       "time" : {
-        "start" : 1732618983999,
-        "stop" : 1732618984830,
-        "duration" : 831
+        "start" : 1732619072562,
+        "stop" : 1732619073388,
+        "duration" : 826
+      }
+    } ]
+  },
+  "8fd76fab8b3cad900ce07a13cdcc9351" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f8cea570104923be",
+      "status" : "passed",
+      "time" : {
+        "start" : 1732619073393,
+        "stop" : 1732619074075,
+        "duration" : 682
       }
     } ]
   },
@@ -66,31 +66,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "b4bf0392ff91eddf",
+      "uid" : "72ace15801818581",
       "status" : "passed",
       "time" : {
-        "start" : 1732618986243,
-        "stop" : 1732618987050,
-        "duration" : 807
-      }
-    } ]
-  },
-  "7d37e9491750020c784bd12f9edfeafd" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "e031ef3cd8aa0b20",
-      "status" : "passed",
-      "time" : {
-        "start" : 1732618989062,
-        "stop" : 1732618989702,
-        "duration" : 640
+        "start" : 1732619074740,
+        "stop" : 1732619075494,
+        "duration" : 754
       }
     } ]
   },
@@ -104,12 +85,31 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "9c72f590f883b75d",
+      "uid" : "5c459d85447676ee",
       "status" : "passed",
       "time" : {
-        "start" : 1732618985574,
-        "stop" : 1732618986239,
-        "duration" : 665
+        "start" : 1732619074079,
+        "stop" : 1732619074733,
+        "duration" : 654
+      }
+    } ]
+  },
+  "7d37e9491750020c784bd12f9edfeafd" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8f8071afcae1ffec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1732619077300,
+        "stop" : 1732619077853,
+        "duration" : 553
       }
     } ]
   },
@@ -123,12 +123,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "ea57efd3019391f5",
+      "uid" : "31415f65ad9b8a11",
       "status" : "passed",
       "time" : {
-        "start" : 1732618990959,
-        "stop" : 1732618991582,
-        "duration" : 623
+        "start" : 1732619079002,
+        "stop" : 1732619079578,
+        "duration" : 576
       }
     } ]
   },
@@ -142,32 +142,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "7957bec39e37cbbc",
+      "uid" : "da8290053f01219c",
       "status" : "passed",
       "time" : {
-        "start" : 1732618987055,
-        "stop" : 1732618987690,
-        "duration" : 635
-      }
-    } ]
-  },
-  "cced318d65eb1a3a4996e14e66146ebc" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "13aa55bf04b7c783",
-      "status" : "broken",
-      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message: \nStacktrace:\nRemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8\nWebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5\nNoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16",
-      "time" : {
-        "start" : 1732619040594,
-        "stop" : 1732619073962,
-        "duration" : 33368
+        "start" : 1732619075499,
+        "stop" : 1732619076066,
+        "duration" : 567
       }
     } ]
   },
@@ -181,12 +161,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "4b5f1c102336d04a",
+      "uid" : "764af44f7e17db60",
       "status" : "passed",
       "time" : {
-        "start" : 1732618988352,
-        "stop" : 1732618989057,
-        "duration" : 705
+        "start" : 1732619076706,
+        "stop" : 1732619077295,
+        "duration" : 589
+      }
+    } ]
+  },
+  "cced318d65eb1a3a4996e14e66146ebc" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a635dd0d45daa3da",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message: \nStacktrace:\nRemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8\nWebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5\nNoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16",
+      "time" : {
+        "start" : 1732619115390,
+        "stop" : 1732619148487,
+        "duration" : 33097
       }
     } ]
   },
@@ -200,12 +200,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "5dce59ff74dc491c",
+      "uid" : "e4a4755864ff430c",
       "status" : "passed",
       "time" : {
-        "start" : 1732618987694,
-        "stop" : 1732618988348,
-        "duration" : 654
+        "start" : 1732619076070,
+        "stop" : 1732619076702,
+        "duration" : 632
       }
     } ]
   },
@@ -219,12 +219,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "f7a46e5c18d96c61",
+      "uid" : "f53bde1859e03f88",
       "status" : "passed",
       "time" : {
-        "start" : 1732618990341,
-        "stop" : 1732618990955,
-        "duration" : 614
+        "start" : 1732619078433,
+        "stop" : 1732619078998,
+        "duration" : 565
       }
     } ]
   },
@@ -238,13 +238,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "ea092ecad2549c2d",
+      "uid" : "582039819cc3d04e",
       "status" : "failed",
       "statusDetails" : "AssertionError: Таймаут ожидания URL: /main",
       "time" : {
-        "start" : 1732619017872,
-        "stop" : 1732619037088,
-        "duration" : 19216
+        "start" : 1732619093235,
+        "stop" : 1732619112074,
+        "duration" : 18839
       }
     } ]
   },
@@ -258,12 +258,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "1893e2edf778f29f",
+      "uid" : "a917af601df2f149",
       "status" : "passed",
       "time" : {
-        "start" : 1732618991586,
-        "stop" : 1732618992207,
-        "duration" : 621
+        "start" : 1732619079582,
+        "stop" : 1732619080134,
+        "duration" : 552
       }
     } ]
   }
