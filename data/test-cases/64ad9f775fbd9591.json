@@ -1,12 +1,12 @@
 {
-  "uid" : "487556d5bb17860b",
+  "uid" : "64ad9f775fbd9591",
   "name" : "Тест логина для юзера apexknight@yandex.ru в окружении dev",
   "fullName" : "tests.ui.auth.test_login#test_login_ui_dev",
   "historyId" : "2d5f7d1436342838c5d72ec97bea311a",
   "time" : {
-    "start" : 1732621591708,
-    "stop" : 1732621601396,
-    "duration" : 9688
+    "start" : 1732622324033,
+    "stop" : 1732622334674,
+    "duration" : 10641
   },
   "status" : "passed",
   "flaky" : false,
@@ -18,9 +18,9 @@
   "beforeStages" : [ {
     "name" : "setup_driver",
     "time" : {
-      "start" : 1732621572733,
-      "stop" : 1732621591708,
-      "duration" : 18975
+      "start" : 1732622305143,
+      "stop" : 1732622324032,
+      "duration" : 18889
     },
     "status" : "passed",
     "steps" : [ ],
@@ -36,9 +36,9 @@
     "steps" : [ {
       "name" : "Нажимаем кнопку 'Начать'",
       "time" : {
-        "start" : 1732621593901,
-        "stop" : 1732621595725,
-        "duration" : 1824
+        "start" : 1732622325492,
+        "stop" : 1732622327675,
+        "duration" : 2183
       },
       "status" : "passed",
       "steps" : [ ],
@@ -51,9 +51,9 @@
     }, {
       "name" : "Вводим почту",
       "time" : {
-        "start" : 1732621595726,
-        "stop" : 1732621595788,
-        "duration" : 62
+        "start" : 1732622327675,
+        "stop" : 1732622327747,
+        "duration" : 72
       },
       "status" : "passed",
       "steps" : [ ],
@@ -66,9 +66,9 @@
     }, {
       "name" : "Вводим пароль",
       "time" : {
-        "start" : 1732621595788,
-        "stop" : 1732621597817,
-        "duration" : 2029
+        "start" : 1732622327747,
+        "stop" : 1732622329775,
+        "duration" : 2028
       },
       "status" : "passed",
       "steps" : [ ],
@@ -81,9 +81,9 @@
     }, {
       "name" : "Нажимаем кнопку вход",
       "time" : {
-        "start" : 1732621597817,
-        "stop" : 1732621597847,
-        "duration" : 30
+        "start" : 1732622329776,
+        "stop" : 1732622329805,
+        "duration" : 29
       },
       "status" : "passed",
       "steps" : [ ],
@@ -95,15 +95,15 @@
       "hasContent" : false
     } ],
     "attachments" : [ {
-      "uid" : "8ad8e6887101feb9",
+      "uid" : "165a34c804ba92fe",
       "name" : "Скрин успеха",
-      "source" : "8ad8e6887101feb9.png",
+      "source" : "165a34c804ba92fe.png",
       "type" : "image/png",
-      "size" : 113970
+      "size" : 141352
     }, {
-      "uid" : "b698ddab411c8820",
+      "uid" : "d4c6c4d12c748e6a",
       "name" : "log",
-      "source" : "b698ddab411c8820.txt",
+      "source" : "d4c6c4d12c748e6a.txt",
       "type" : "text/plain",
       "size" : 1085
     } ],
@@ -116,8 +116,8 @@
   "afterStages" : [ {
     "name" : "setup_driver::0",
     "time" : {
-      "start" : 1732621601397,
-      "stop" : 1732621601400,
+      "start" : 1732622334674,
+      "stop" : 1732622334677,
       "duration" : 3
     },
     "status" : "passed",
@@ -143,10 +143,10 @@
     "value" : "test_login"
   }, {
     "name" : "host",
-    "value" : "fv-az1815-801"
+    "value" : "fv-az1544-313"
   }, {
     "name" : "thread",
-    "value" : "2177-MainThread"
+    "value" : "2237-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -170,6 +170,6 @@
     "categories" : [ ],
     "tags" : [ "dev" ]
   },
-  "source" : "487556d5bb17860b.json",
+  "source" : "64ad9f775fbd9591.json",
   "parameterValues" : [ ]
 }
