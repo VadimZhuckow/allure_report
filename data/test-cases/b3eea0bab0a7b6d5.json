@@ -1,13 +1,15 @@
 {
-  "uid" : "e3f7630e0e948494",
-  "name" : "test_get_fin_stats_dev[8-2024-40]",
-  "fullName" : "tests.api.tests_fin_stats.test_fin_stats#test_get_fin_stats_dev",
-  "historyId" : "7d37e9491750020c784bd12f9edfeafd",
+  "uid" : "b3eea0bab0a7b6d5",
+  "name" : "Тест запроса info для платежа",
+  "fullName" : "tests.api.tests_paymentgate.test_get_info_payment#test_get_info_payment",
+  "historyId" : "26546f721fee533a9626437891adc169",
   "time" : {
-    "start" : 1732543659582,
-    "stop" : 1732543660324,
-    "duration" : 742
+    "start" : 1732605538242,
+    "stop" : 1732605538903,
+    "duration" : 661
   },
+  "description" : "Тест проверяет запрос инфо для платежа API, Для апи тестов не добавляю шаги тк там чувствительная информация.",
+  "descriptionHtml" : "<p>Тест проверяет запрос инфо для платежа API, Для апи тестов не добавляю шаги тк там чувствительная информация.</p>\n",
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
@@ -16,25 +18,10 @@
   "retriesCount" : 0,
   "retriesStatusChange" : false,
   "beforeStages" : [ {
-    "name" : "finstats_api_dev",
+    "name" : "payment_info_api_dev",
     "time" : {
-      "start" : 1732543659525,
-      "stop" : 1732543659525,
-      "duration" : 0
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
-  }, {
-    "name" : "log_test_parameters",
-    "time" : {
-      "start" : 1732543659525,
-      "stop" : 1732543659525,
+      "start" : 1732605538241,
+      "stop" : 1732605538241,
       "duration" : 0
     },
     "status" : "passed",
@@ -48,8 +35,23 @@
   }, {
     "name" : "api_client_dev",
     "time" : {
-      "start" : 1732543659525,
-      "stop" : 1732543659525,
+      "start" : 1732605538241,
+      "stop" : 1732605538241,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "log_test_parameters",
+    "time" : {
+      "start" : 1732605538241,
+      "stop" : 1732605538241,
       "duration" : 0
     },
     "status" : "passed",
@@ -63,8 +65,8 @@
   }, {
     "name" : "timer",
     "time" : {
-      "start" : 1732543659525,
-      "stop" : 1732543659525,
+      "start" : 1732605538241,
+      "stop" : 1732605538241,
       "duration" : 0
     },
     "status" : "passed",
@@ -79,8 +81,8 @@
   "afterStages" : [ {
     "name" : "timer::0",
     "time" : {
-      "start" : 1732543660326,
-      "stop" : 1732543660326,
+      "start" : 1732605538904,
+      "stop" : 1732605538904,
       "duration" : 0
     },
     "status" : "passed",
@@ -94,25 +96,19 @@
   } ],
   "labels" : [ {
     "name" : "tag",
-    "value" : "regress"
-  }, {
-    "name" : "tag",
     "value" : "dev"
   }, {
-    "name" : "tag",
-    "value" : "stats"
-  }, {
     "name" : "parentSuite",
-    "value" : "tests.api.tests_fin_stats"
+    "value" : "tests.api.tests_paymentgate"
   }, {
     "name" : "suite",
-    "value" : "test_fin_stats"
+    "value" : "test_get_info_payment"
   }, {
     "name" : "host",
-    "value" : "fv-az956-222"
+    "value" : "fv-az1745-959"
   }, {
     "name" : "thread",
-    "value" : "2167-MainThread"
+    "value" : "2230-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -121,21 +117,12 @@
     "value" : "cpython3"
   }, {
     "name" : "package",
-    "value" : "tests.api.tests_fin_stats.test_fin_stats"
+    "value" : "tests.api.tests_paymentgate.test_get_info_payment"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
   } ],
-  "parameters" : [ {
-    "name" : "expected_count",
-    "value" : "40"
-  }, {
-    "name" : "month",
-    "value" : "8"
-  }, {
-    "name" : "year",
-    "value" : "2024"
-  } ],
+  "parameters" : [ ],
   "links" : [ ],
   "hidden" : false,
   "retry" : false,
@@ -143,8 +130,8 @@
     "severity" : "normal",
     "retries" : [ ],
     "categories" : [ ],
-    "tags" : [ "dev", "stats", "regress" ]
+    "tags" : [ "dev" ]
   },
-  "source" : "e3f7630e0e948494.json",
-  "parameterValues" : [ "40", "8", "2024" ]
+  "source" : "b3eea0bab0a7b6d5.json",
+  "parameterValues" : [ ]
 }
