@@ -6,13 +6,13 @@
       "name" : "TypeError: 'NoneType' object is not iterable",
       "children" : [ {
         "name" : "Тест логина для юзера None в окружении dev",
-        "uid" : "78c0305762533e56",
+        "uid" : "6d6cd567c1dd83c2",
         "parentUid" : "5ae019e15b757cc14ae13e78aec51419",
         "status" : "broken",
         "time" : {
-          "start" : 1732615590429,
-          "stop" : 1732615594136,
-          "duration" : 3707
+          "start" : 1732615767489,
+          "stop" : 1732615771045,
+          "duration" : 3556
         },
         "flaky" : false,
         "newFailed" : false,
@@ -23,13 +23,13 @@
         "parameters" : [ ]
       }, {
         "name" : "Тест смены пароля для юзера None",
-        "uid" : "b41a211f44fda8b1",
+        "uid" : "55949677e27fb2b4",
         "parentUid" : "5ae019e15b757cc14ae13e78aec51419",
         "status" : "broken",
         "time" : {
-          "start" : 1732615597406,
-          "stop" : 1732615600290,
-          "duration" : 2884
+          "start" : 1732615774536,
+          "stop" : 1732615777413,
+          "duration" : 2877
         },
         "flaky" : false,
         "newFailed" : false,
