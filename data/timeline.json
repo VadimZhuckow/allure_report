@@ -1,18 +1,18 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "children" : [ {
-    "name" : "fv-az1183-285",
+    "name" : "fv-az1532-927",
     "children" : [ {
-      "name" : "2184-MainThread",
+      "name" : "2240-MainThread",
       "children" : [ {
-        "name" : "test_get_fin_stats_dev[9-2024-775]",
-        "uid" : "2a417737046a3b10",
-        "parentUid" : "ef5137f3808fe5080239462cad334446",
+        "name" : "Тест запроса info для платежа",
+        "uid" : "a71430497c4cd1d",
+        "parentUid" : "53a16f2b71accc1f28f7ce238eabe3b8",
         "status" : "passed",
         "time" : {
-          "start" : 1732612742012,
-          "stop" : 1732612742835,
-          "duration" : 823
+          "start" : 1732612906643,
+          "stop" : 1732612907454,
+          "duration" : 811
         },
         "flaky" : false,
         "newFailed" : false,
@@ -20,16 +20,20 @@
         "newBroken" : false,
         "retriesCount" : 0,
         "retriesStatusChange" : false,
-        "parameters" : [ "775", "9", "2024" ]
-      }, {
+        "parameters" : [ ]
+      } ],
+      "uid" : "53a16f2b71accc1f28f7ce238eabe3b8"
+    }, {
+      "name" : "2242-MainThread",
+      "children" : [ {
         "name" : "test_get_fin_stats_dev[10-2024-2]",
-        "uid" : "f3ba24bf873d326",
-        "parentUid" : "ef5137f3808fe5080239462cad334446",
+        "uid" : "909554e10dc10f1",
+        "parentUid" : "b882b8e3f76db6372a7693e3fa6dadc5",
         "status" : "passed",
         "time" : {
-          "start" : 1732612742840,
-          "stop" : 1732612743624,
-          "duration" : 784
+          "start" : 1732612910141,
+          "stop" : 1732612910957,
+          "duration" : 816
         },
         "flaky" : false,
         "newFailed" : false,
@@ -39,14 +43,31 @@
         "retriesStatusChange" : false,
         "parameters" : [ "2", "10", "2024" ]
       }, {
-        "name" : "test_get_fin_stats_dev[8-2024-40]",
-        "uid" : "5a3a646c9fe63b99",
-        "parentUid" : "ef5137f3808fe5080239462cad334446",
+        "name" : "test_get_fin_stats_dev[9-2024-775]",
+        "uid" : "a157a43e549ed5e2",
+        "parentUid" : "b882b8e3f76db6372a7693e3fa6dadc5",
         "status" : "passed",
         "time" : {
-          "start" : 1732612741133,
-          "stop" : 1732612742008,
-          "duration" : 875
+          "start" : 1732612909264,
+          "stop" : 1732612910135,
+          "duration" : 871
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "775", "9", "2024" ]
+      }, {
+        "name" : "test_get_fin_stats_dev[8-2024-40]",
+        "uid" : "7402d991e9b408e4",
+        "parentUid" : "b882b8e3f76db6372a7693e3fa6dadc5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1732612908395,
+          "stop" : 1732612909260,
+          "duration" : 865
         },
         "flaky" : false,
         "newFailed" : false,
@@ -56,39 +77,18 @@
         "retriesStatusChange" : false,
         "parameters" : [ "40", "8", "2024" ]
       } ],
-      "uid" : "ef5137f3808fe5080239462cad334446"
+      "uid" : "b882b8e3f76db6372a7693e3fa6dadc5"
     }, {
-      "name" : "2181-MainThread",
-      "children" : [ {
-        "name" : "Тест запроса info для платежа",
-        "uid" : "1e6da569fe44637d",
-        "parentUid" : "cab56729e494c2a6242f29d1b7a4421d",
-        "status" : "passed",
-        "time" : {
-          "start" : 1732612739416,
-          "stop" : 1732612740215,
-          "duration" : 799
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "cab56729e494c2a6242f29d1b7a4421d"
-    }, {
-      "name" : "2185-MainThread",
+      "name" : "2247-MainThread",
       "children" : [ {
         "name" : "Тест изменения пароля",
-        "uid" : "767f70fa65638df9",
-        "parentUid" : "97980d98f1776b3fc5eacd650300e8e0",
+        "uid" : "b159a5586c7188d3",
+        "parentUid" : "8cab57b716c15400a203521777fd4fad",
         "status" : "passed",
         "time" : {
-          "start" : 1732612744445,
-          "stop" : 1732612745395,
-          "duration" : 950
+          "start" : 1732612911828,
+          "stop" : 1732612912865,
+          "duration" : 1037
         },
         "flaky" : false,
         "newFailed" : false,
@@ -98,9 +98,9 @@
         "retriesStatusChange" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "97980d98f1776b3fc5eacd650300e8e0"
+      "uid" : "8cab57b716c15400a203521777fd4fad"
     } ],
-    "uid" : "fb2a8745262fc53b6b37818ccb30a5b2"
+    "uid" : "6b472dbbcbd5f609aeb802fe311f2bdf"
   } ],
   "name" : "timeline"
 }

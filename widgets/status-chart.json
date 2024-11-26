@@ -1,50 +1,50 @@
 [ {
-  "uid" : "2a417737046a3b10",
-  "name" : "test_get_fin_stats_dev[9-2024-775]",
-  "time" : {
-    "start" : 1732612742012,
-    "stop" : 1732612742835,
-    "duration" : 823
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "767f70fa65638df9",
-  "name" : "Тест изменения пароля",
-  "time" : {
-    "start" : 1732612744445,
-    "stop" : 1732612745395,
-    "duration" : 950
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "f3ba24bf873d326",
+  "uid" : "909554e10dc10f1",
   "name" : "test_get_fin_stats_dev[10-2024-2]",
   "time" : {
-    "start" : 1732612742840,
-    "stop" : 1732612743624,
-    "duration" : 784
+    "start" : 1732612910141,
+    "stop" : 1732612910957,
+    "duration" : 816
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "5a3a646c9fe63b99",
+  "uid" : "7402d991e9b408e4",
   "name" : "test_get_fin_stats_dev[8-2024-40]",
   "time" : {
-    "start" : 1732612741133,
-    "stop" : 1732612742008,
-    "duration" : 875
+    "start" : 1732612908395,
+    "stop" : 1732612909260,
+    "duration" : 865
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "1e6da569fe44637d",
+  "uid" : "a71430497c4cd1d",
   "name" : "Тест запроса info для платежа",
   "time" : {
-    "start" : 1732612739416,
-    "stop" : 1732612740215,
-    "duration" : 799
+    "start" : 1732612906643,
+    "stop" : 1732612907454,
+    "duration" : 811
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b159a5586c7188d3",
+  "name" : "Тест изменения пароля",
+  "time" : {
+    "start" : 1732612911828,
+    "stop" : 1732612912865,
+    "duration" : 1037
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a157a43e549ed5e2",
+  "name" : "test_get_fin_stats_dev[9-2024-775]",
+  "time" : {
+    "start" : 1732612909264,
+    "stop" : 1732612910135,
+    "duration" : 871
   },
   "status" : "passed",
   "severity" : "normal"
