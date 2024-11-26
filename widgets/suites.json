@@ -1,28 +1,6 @@
 {
   "total" : 7,
   "items" : [ {
-    "uid" : "e07adeaab0965dc5005a6d541a61e13b",
-    "name" : "tests.ui.auth",
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    }
-  }, {
-    "uid" : "e3836d663ab796ebfd9a9761efb76f0c",
-    "name" : "tests.ui.change_password",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    }
-  }, {
     "uid" : "63d734137becb7a4767f670be37f45bb",
     "name" : "tests.api.tests_filters",
     "statistic" : {
@@ -69,6 +47,28 @@
   }, {
     "uid" : "eb7139bd502f8917e8499e23c624aad9",
     "name" : "tests.api.tests_registry",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "e07adeaab0965dc5005a6d541a61e13b",
+    "name" : "tests.ui.auth",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "e3836d663ab796ebfd9a9761efb76f0c",
+    "name" : "tests.ui.change_password",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,

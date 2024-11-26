@@ -1,0 +1,175 @@
+{
+  "uid" : "f9cb75c252c90612",
+  "name" : "Тест логина для юзера apexknight@yandex.ru в окружении dev",
+  "fullName" : "tests.ui.auth.test_login#test_login_ui_dev",
+  "historyId" : "2d5f7d1436342838c5d72ec97bea311a",
+  "time" : {
+    "start" : 1732620757537,
+    "stop" : 1732620763785,
+    "duration" : 6248
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "setup_driver",
+    "time" : {
+      "start" : 1732620739047,
+      "stop" : 1732620757537,
+      "duration" : 18490
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Нажимаем кнопку 'Начать'",
+      "time" : {
+        "start" : 1732620759277,
+        "stop" : 1732620761444,
+        "duration" : 2167
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Вводим почту",
+      "time" : {
+        "start" : 1732620761444,
+        "stop" : 1732620761509,
+        "duration" : 65
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Вводим пароль",
+      "time" : {
+        "start" : 1732620761509,
+        "stop" : 1732620761538,
+        "duration" : 29
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Нажимаем кнопку вход",
+      "time" : {
+        "start" : 1732620761538,
+        "stop" : 1732620761581,
+        "duration" : 43
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "985a17ae9827371f",
+      "name" : "Скрин успеха",
+      "source" : "985a17ae9827371f.png",
+      "type" : "image/png",
+      "size" : 113970
+    }, {
+      "uid" : "296b4e84c427b4ad",
+      "name" : "log",
+      "source" : "296b4e84c427b4ad.txt",
+      "type" : "text/plain",
+      "size" : 1085
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "setup_driver::0",
+    "time" : {
+      "start" : 1732620763785,
+      "stop" : 1732620763788,
+      "duration" : 3
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Логин"
+  }, {
+    "name" : "tag",
+    "value" : "dev"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests.ui.auth"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "host",
+    "value" : "fv-az1797-558"
+  }, {
+    "name" : "thread",
+    "value" : "2168-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.ui.auth.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "dev" ]
+  },
+  "source" : "f9cb75c252c90612.json",
+  "parameterValues" : [ ]
+}
