@@ -1,12 +1,12 @@
 {
-  "uid" : "17e8c88ae781715a",
+  "uid" : "6354ab7cfe9cd496",
   "name" : "Тест запроса info для платежа",
   "fullName" : "tests.api.tests_paymentgate.test_get_info_payment#test_get_info_payment",
   "historyId" : "26546f721fee533a9626437891adc169",
   "time" : {
-    "start" : 1732614013460,
-    "stop" : 1732614014004,
-    "duration" : 544
+    "start" : 1732615385550,
+    "stop" : 1732615386253,
+    "duration" : 703
   },
   "description" : "Тест проверяет запрос инфо для платежа API, Для апи тестов не добавляю шаги тк там чувствительная информация.",
   "descriptionHtml" : "<p>Тест проверяет запрос инфо для платежа API, Для апи тестов не добавляю шаги тк там чувствительная информация.</p>\n",
@@ -18,10 +18,25 @@
   "retriesCount" : 0,
   "retriesStatusChange" : false,
   "beforeStages" : [ {
+    "name" : "timer",
+    "time" : {
+      "start" : 1732615385550,
+      "stop" : 1732615385550,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
     "name" : "payment_info_api_dev",
     "time" : {
-      "start" : 1732614013460,
-      "stop" : 1732614013460,
+      "start" : 1732615385550,
+      "stop" : 1732615385550,
       "duration" : 0
     },
     "status" : "passed",
@@ -35,8 +50,8 @@
   }, {
     "name" : "log_test_parameters",
     "time" : {
-      "start" : 1732614013460,
-      "stop" : 1732614013460,
+      "start" : 1732615385550,
+      "stop" : 1732615385550,
       "duration" : 0
     },
     "status" : "passed",
@@ -50,23 +65,8 @@
   }, {
     "name" : "api_client_dev",
     "time" : {
-      "start" : 1732614013460,
-      "stop" : 1732614013460,
-      "duration" : 0
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
-  }, {
-    "name" : "timer",
-    "time" : {
-      "start" : 1732614013460,
-      "stop" : 1732614013460,
+      "start" : 1732615385550,
+      "stop" : 1732615385550,
       "duration" : 0
     },
     "status" : "passed",
@@ -81,8 +81,8 @@
   "afterStages" : [ {
     "name" : "timer::0",
     "time" : {
-      "start" : 1732614014005,
-      "stop" : 1732614014005,
+      "start" : 1732615386254,
+      "stop" : 1732615386254,
       "duration" : 0
     },
     "status" : "passed",
@@ -105,10 +105,10 @@
     "value" : "test_get_info_payment"
   }, {
     "name" : "host",
-    "value" : "fv-az926-607"
+    "value" : "fv-az1476-493"
   }, {
     "name" : "thread",
-    "value" : "2242-MainThread"
+    "value" : "2163-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -132,6 +132,6 @@
     "categories" : [ ],
     "tags" : [ "dev" ]
   },
-  "source" : "17e8c88ae781715a.json",
+  "source" : "6354ab7cfe9cd496.json",
   "parameterValues" : [ ]
 }

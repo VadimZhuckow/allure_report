@@ -1,43 +1,35 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "children" : [ {
-    "name" : "Product defects",
-    "children" : [ {
-      "name" : "AssertionError: Кнопка 'Начать' не доступна для клика.",
-      "children" : [ {
-        "name" : "Тест логина для юзера None в окружении dev",
-        "uid" : "f228ed410e1bf165",
-        "parentUid" : "33a069816706d330ad92c9e29ad7e6c4",
-        "status" : "failed",
-        "time" : {
-          "start" : 1732614044689,
-          "stop" : 1732614086072,
-          "duration" : 41383
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "33a069816706d330ad92c9e29ad7e6c4"
-    } ],
-    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
-  }, {
     "name" : "Test defects",
     "children" : [ {
-      "name" : "selenium.common.exceptions.TimeoutException: Message: \nStacktrace:\n#0 0x5654b6af731a <unknown>\n#1 0x5654b660d6e0 <unknown>\n#2 0x5654b665c3e6 <unknown>\n#3 0x5654b665c681 <unknown>\n#4 0x5654b66a1b04 <unknown>\n#5 0x5654b668048d <unknown>\n#6 0x5654b669eed7 <unknown>\n#7 0x5654b6680203 <unknown>\n#8 0x5654b664ecc0 <unknown>\n#9 0x5654b664fc9e <unknown>\n#10 0x5654b6ac4d0b <unknown>\n#11 0x5654b6ac8c92 <unknown>\n#12 0x5654b6ab1b3c <unknown>\n#13 0x5654b6ac9807 <unknown>\n#14 0x5654b6a970df <unknown>\n#15 0x5654b6ae6578 <unknown>\n#16 0x5654b6ae6740 <unknown>\n#17 0x5654b6af6196 <unknown>\n#18 0x7fdf8f294ac3 <unknown>",
+      "name" : "TypeError: 'NoneType' object is not iterable",
       "children" : [ {
-        "name" : "Тест смены пароля для юзера None",
-        "uid" : "d41e17c6a07fccaa",
-        "parentUid" : "ed3572475bb8ff198e44c2d8dd4438e6",
+        "name" : "Тест логина для юзера None в окружении dev",
+        "uid" : "2572ab1603095c5d",
+        "parentUid" : "5ae019e15b757cc14ae13e78aec51419",
         "status" : "broken",
         "time" : {
-          "start" : 1732614086724,
-          "stop" : 1732614124374,
-          "duration" : 37650
+          "start" : 1732615400059,
+          "stop" : 1732615403898,
+          "duration" : 3839
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Тест смены пароля для юзера None",
+        "uid" : "9757d17d61631f11",
+        "parentUid" : "5ae019e15b757cc14ae13e78aec51419",
+        "status" : "broken",
+        "time" : {
+          "start" : 1732615407779,
+          "stop" : 1732615410906,
+          "duration" : 3127
         },
         "flaky" : false,
         "newFailed" : false,
@@ -47,7 +39,7 @@
         "retriesStatusChange" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "ed3572475bb8ff198e44c2d8dd4438e6"
+      "uid" : "5ae019e15b757cc14ae13e78aec51419"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ],

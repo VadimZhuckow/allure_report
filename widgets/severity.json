@@ -1,141 +1,141 @@
 [ {
-  "uid" : "b0bdc83cc87f9b3c",
-  "name" : "test_get_filters_payment_dev[9-2024-485]",
-  "time" : {
-    "start" : 1732614008458,
-    "stop" : 1732614009059,
-    "duration" : 601
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "e117f5e18bfc6e5",
-  "name" : "test_get_fin_stats_dev[8-2024-40]",
-  "time" : {
-    "start" : 1732614011633,
-    "stop" : 1732614012259,
-    "duration" : 626
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "eb6185f2b88f0b3d",
+  "uid" : "942145937ce23f2f",
   "name" : "test_get_fin_stats_dev[9-2024-775]",
   "time" : {
-    "start" : 1732614012264,
-    "stop" : 1732614012900,
-    "duration" : 636
+    "start" : 1732615384111,
+    "stop" : 1732615384836,
+    "duration" : 725
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "17e8c88ae781715a",
-  "name" : "Тест запроса info для платежа",
-  "time" : {
-    "start" : 1732614013460,
-    "stop" : 1732614014004,
-    "duration" : 544
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "9859b55fad4cf3c6",
-  "name" : "test_get_filters_payout_dev[9-2024-933]",
-  "time" : {
-    "start" : 1732614010421,
-    "stop" : 1732614011011,
-    "duration" : 590
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "3464993059fb08e9",
-  "name" : "test_get_filters_payout_dev[8-2024-84]",
-  "time" : {
-    "start" : 1732614009852,
-    "stop" : 1732614010417,
-    "duration" : 565
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "f228ed410e1bf165",
-  "name" : "Тест логина для юзера None в окружении dev",
-  "time" : {
-    "start" : 1732614044689,
-    "stop" : 1732614086072,
-    "duration" : 41383
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "35c29adb65292cf7",
-  "name" : "test_get_filters_payment_dev[10-2024-498]",
-  "time" : {
-    "start" : 1732614009064,
-    "stop" : 1732614009846,
-    "duration" : 782
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "e72fc860d575fcae",
-  "name" : "test_get_filters_payment_dev[8-2024-239]",
-  "time" : {
-    "start" : 1732614007718,
-    "stop" : 1732614008454,
-    "duration" : 736
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "5fd58fea06c9639a",
-  "name" : "test_get_filters_payout_dev[10-2024-56]",
-  "time" : {
-    "start" : 1732614011015,
-    "stop" : 1732614011628,
-    "duration" : 613
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "a9d214ff394ad29f",
-  "name" : "Тест изменения пароля",
-  "time" : {
-    "start" : 1732614006926,
-    "stop" : 1732614007714,
-    "duration" : 788
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "1c613cb0e3a8f3c8",
+  "uid" : "cae51e1521a02d95",
   "name" : "test_get_fin_stats_dev[10-2024-2]",
   "time" : {
-    "start" : 1732614012904,
-    "stop" : 1732614013456,
-    "duration" : 552
+    "start" : 1732615384840,
+    "stop" : 1732615385546,
+    "duration" : 706
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "1c9d1ebd39cad19d",
+  "uid" : "8d0abd478cf5eea0",
   "name" : "test_send_registry_dev[apex69knight@gmail.com-2024-09-01 00:00:00-2024-09-30 23:59:59-174-200-Starting send registry]",
   "time" : {
-    "start" : 1732614014008,
-    "stop" : 1732614014563,
-    "duration" : 555
+    "start" : 1732615386257,
+    "stop" : 1732615386917,
+    "duration" : 660
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "d41e17c6a07fccaa",
+  "uid" : "876cc5a50fbf9b87",
+  "name" : "test_get_filters_payout_dev[9-2024-933]",
+  "time" : {
+    "start" : 1732615381978,
+    "stop" : 1732615382681,
+    "duration" : 703
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9757d17d61631f11",
   "name" : "Тест смены пароля для юзера None",
   "time" : {
-    "start" : 1732614086724,
-    "stop" : 1732614124374,
-    "duration" : 37650
+    "start" : 1732615407779,
+    "stop" : 1732615410906,
+    "duration" : 3127
   },
   "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "6354ab7cfe9cd496",
+  "name" : "Тест запроса info для платежа",
+  "time" : {
+    "start" : 1732615385550,
+    "stop" : 1732615386253,
+    "duration" : 703
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2856b955c18ef2d6",
+  "name" : "test_get_fin_stats_dev[8-2024-40]",
+  "time" : {
+    "start" : 1732615383414,
+    "stop" : 1732615384106,
+    "duration" : 692
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "15fb5530a348ece1",
+  "name" : "test_get_filters_payment_dev[8-2024-239]",
+  "time" : {
+    "start" : 1732615378789,
+    "stop" : 1732615379564,
+    "duration" : 775
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5a254634d0d03c4e",
+  "name" : "test_get_filters_payment_dev[9-2024-485]",
+  "time" : {
+    "start" : 1732615379568,
+    "stop" : 1732615380329,
+    "duration" : 761
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2572ab1603095c5d",
+  "name" : "Тест логина для юзера None в окружении dev",
+  "time" : {
+    "start" : 1732615400059,
+    "stop" : 1732615403898,
+    "duration" : 3839
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "59f3a787ecfa798c",
+  "name" : "test_get_filters_payout_dev[10-2024-56]",
+  "time" : {
+    "start" : 1732615382685,
+    "stop" : 1732615383410,
+    "duration" : 725
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8a87d8c129a0e6cf",
+  "name" : "test_get_filters_payout_dev[8-2024-84]",
+  "time" : {
+    "start" : 1732615381257,
+    "stop" : 1732615381974,
+    "duration" : 717
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7057b1a1f6a37d5",
+  "name" : "test_get_filters_payment_dev[10-2024-498]",
+  "time" : {
+    "start" : 1732615380335,
+    "stop" : 1732615381253,
+    "duration" : 918
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9417b4c786859195",
+  "name" : "Тест изменения пароля",
+  "time" : {
+    "start" : 1732615377897,
+    "stop" : 1732615378784,
+    "duration" : 887
+  },
+  "status" : "passed",
   "severity" : "normal"
 } ]

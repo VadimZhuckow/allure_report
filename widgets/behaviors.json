@@ -4,8 +4,8 @@
     "uid" : "7885948bb612df9f30b15d1500eb790f",
     "name" : "Логин",
     "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
+      "failed" : 0,
+      "broken" : 1,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
