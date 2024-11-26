@@ -1,40 +1,40 @@
 [ {
-  "uid" : "ee4c47d2e549e956",
-  "name" : "test_get_fin_stats_dev[10-2024-2]",
-  "time" : {
-    "start" : 1732605725269,
-    "stop" : 1732605726099,
-    "duration" : 830
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "fe98925d66e96fcd",
+  "uid" : "5802615e270adccf",
   "name" : "test_get_fin_stats_dev[8-2024-40]",
   "time" : {
-    "start" : 1732605723556,
-    "stop" : 1732605724447,
-    "duration" : 891
+    "start" : 1732605896954,
+    "stop" : 1732605897861,
+    "duration" : 907
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "f8ee64f49070713f",
-  "name" : "test_get_fin_stats_dev[9-2024-775]",
-  "time" : {
-    "start" : 1732605724451,
-    "stop" : 1732605725263,
-    "duration" : 812
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "487774a227406b07",
+  "uid" : "50bb8a0ad6044c3f",
   "name" : "Тест запроса info для платежа",
   "time" : {
-    "start" : 1732605721416,
-    "stop" : 1732605722295,
-    "duration" : 879
+    "start" : 1732605895235,
+    "stop" : 1732605896102,
+    "duration" : 867
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5c92031c93d18587",
+  "name" : "test_get_fin_stats_dev[9-2024-775]",
+  "time" : {
+    "start" : 1732605897868,
+    "stop" : 1732605898724,
+    "duration" : 856
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a97054b43f8dd214",
+  "name" : "test_get_fin_stats_dev[10-2024-2]",
+  "time" : {
+    "start" : 1732605898730,
+    "stop" : 1732605899522,
+    "duration" : 792
   },
   "status" : "passed",
   "severity" : "normal"
