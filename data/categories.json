@@ -6,13 +6,13 @@
       "name" : "AssertionError: Таймаут ожидания URL: /main",
       "children" : [ {
         "name" : "Тест логина для юзера 'apexknight@yandex.ru' в окружении dev",
-        "uid" : "582039819cc3d04e",
+        "uid" : "180d873072625db9",
         "parentUid" : "526b8087b4b8c9577273b8d77ebb99f8",
         "status" : "failed",
         "time" : {
-          "start" : 1732619093235,
-          "stop" : 1732619112074,
-          "duration" : 18839
+          "start" : 1732620598365,
+          "stop" : 1732620617533,
+          "duration" : 19168
         },
         "flaky" : false,
         "newFailed" : false,
@@ -31,13 +31,13 @@
       "name" : "selenium.common.exceptions.TimeoutException: Message: \nStacktrace:\nRemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8\nWebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5\nNoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16",
       "children" : [ {
         "name" : "Тест смены пароля для юзера 'apexknight@yandex.ru'",
-        "uid" : "a635dd0d45daa3da",
+        "uid" : "2e70a3ae51a96e05",
         "parentUid" : "ec48442b8bd88d0198b24c613cdde258",
         "status" : "broken",
         "time" : {
-          "start" : 1732619115390,
-          "stop" : 1732619148487,
-          "duration" : 33097
+          "start" : 1732620621012,
+          "stop" : 1732620654062,
+          "duration" : 33050
         },
         "flaky" : false,
         "newFailed" : false,
