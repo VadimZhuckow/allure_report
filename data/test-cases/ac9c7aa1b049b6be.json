@@ -1,12 +1,12 @@
 {
-  "uid" : "cf0abf8d676ef40d",
-  "name" : "test_get_filters_payment_dev[9-2024-485]",
-  "fullName" : "tests.api.tests_filters.test_filters_payment#test_get_filters_payment_dev",
-  "historyId" : "fa84d654766ee589bf8e546787fa8471",
+  "uid" : "ac9c7aa1b049b6be",
+  "name" : "test_get_fin_stats_dev[10-2024-2]",
+  "fullName" : "tests.api.tests_fin_stats.test_fin_stats#test_get_fin_stats_dev",
+  "historyId" : "a0e77774743c34a442a2c0b5d243691c",
   "time" : {
-    "start" : 1732616925706,
-    "stop" : 1732616926363,
-    "duration" : 657
+    "start" : 1732617159869,
+    "stop" : 1732617160482,
+    "duration" : 613
   },
   "status" : "passed",
   "flaky" : false,
@@ -16,10 +16,10 @@
   "retriesCount" : 0,
   "retriesStatusChange" : false,
   "beforeStages" : [ {
-    "name" : "api_client_dev",
+    "name" : "log_test_parameters",
     "time" : {
-      "start" : 1732616925705,
-      "stop" : 1732616925705,
+      "start" : 1732617159868,
+      "stop" : 1732617159868,
       "duration" : 0
     },
     "status" : "passed",
@@ -31,10 +31,25 @@
     "shouldDisplayMessage" : false,
     "hasContent" : false
   }, {
-    "name" : "filters_api_dev",
+    "name" : "finstats_api_dev",
     "time" : {
-      "start" : 1732616925705,
-      "stop" : 1732616925705,
+      "start" : 1732617159868,
+      "stop" : 1732617159868,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "api_client_dev",
+    "time" : {
+      "start" : 1732617159868,
+      "stop" : 1732617159868,
       "duration" : 0
     },
     "status" : "passed",
@@ -48,23 +63,8 @@
   }, {
     "name" : "timer",
     "time" : {
-      "start" : 1732616925705,
-      "stop" : 1732616925705,
-      "duration" : 0
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
-  }, {
-    "name" : "log_test_parameters",
-    "time" : {
-      "start" : 1732616925705,
-      "stop" : 1732616925705,
+      "start" : 1732617159868,
+      "stop" : 1732617159868,
       "duration" : 0
     },
     "status" : "passed",
@@ -79,8 +79,8 @@
   "afterStages" : [ {
     "name" : "timer::0",
     "time" : {
-      "start" : 1732616926365,
-      "stop" : 1732616926365,
+      "start" : 1732617160484,
+      "stop" : 1732617160484,
       "duration" : 0
     },
     "status" : "passed",
@@ -94,19 +94,25 @@
   } ],
   "labels" : [ {
     "name" : "tag",
+    "value" : "regress"
+  }, {
+    "name" : "tag",
     "value" : "dev"
   }, {
+    "name" : "tag",
+    "value" : "stats"
+  }, {
     "name" : "parentSuite",
-    "value" : "tests.api.tests_filters"
+    "value" : "tests.api.tests_fin_stats"
   }, {
     "name" : "suite",
-    "value" : "test_filters_payment"
+    "value" : "test_fin_stats"
   }, {
     "name" : "host",
-    "value" : "fv-az803-807"
+    "value" : "fv-az1652-217"
   }, {
     "name" : "thread",
-    "value" : "2167-MainThread"
+    "value" : "2178-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -115,17 +121,17 @@
     "value" : "cpython3"
   }, {
     "name" : "package",
-    "value" : "tests.api.tests_filters.test_filters_payment"
+    "value" : "tests.api.tests_fin_stats.test_fin_stats"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
   } ],
   "parameters" : [ {
     "name" : "expected_count",
-    "value" : "485"
+    "value" : "2"
   }, {
     "name" : "month",
-    "value" : "9"
+    "value" : "10"
   }, {
     "name" : "year",
     "value" : "2024"
@@ -137,8 +143,8 @@
     "severity" : "normal",
     "retries" : [ ],
     "categories" : [ ],
-    "tags" : [ "dev" ]
+    "tags" : [ "dev", "stats", "regress" ]
   },
-  "source" : "cf0abf8d676ef40d.json",
-  "parameterValues" : [ "485", "9", "2024" ]
+  "source" : "ac9c7aa1b049b6be.json",
+  "parameterValues" : [ "2", "10", "2024" ]
 }

@@ -4,8 +4,8 @@
     "uid" : "e07adeaab0965dc5005a6d541a61e13b",
     "name" : "tests.ui.auth",
     "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
+      "failed" : 1,
+      "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,

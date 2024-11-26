@@ -9,31 +9,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "ba6713821cd3d35e",
+      "uid" : "86932b27b9c4f94a",
       "status" : "passed",
       "time" : {
-        "start" : 1732616929800,
-        "stop" : 1732616930405,
-        "duration" : 605
-      }
-    } ]
-  },
-  "8fd76fab8b3cad900ce07a13cdcc9351" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "30e883a5efbda790",
-      "status" : "passed",
-      "time" : {
-        "start" : 1732616924984,
-        "stop" : 1732616925701,
-        "duration" : 717
+        "start" : 1732617159249,
+        "stop" : 1732617159865,
+        "duration" : 616
       }
     } ]
   },
@@ -47,12 +28,31 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "8695c5f87168bad1",
+      "uid" : "13b774221f499288",
       "status" : "passed",
       "time" : {
-        "start" : 1732616924094,
-        "stop" : 1732616924979,
-        "duration" : 885
+        "start" : 1732617153551,
+        "stop" : 1732617154430,
+        "duration" : 879
+      }
+    } ]
+  },
+  "8fd76fab8b3cad900ce07a13cdcc9351" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "75aa8907bfa7d1fe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1732617154433,
+        "stop" : 1732617155149,
+        "duration" : 716
       }
     } ]
   },
@@ -66,31 +66,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "83d382b2ebf14ccd",
+      "uid" : "708416bd698e7153",
       "status" : "passed",
       "time" : {
-        "start" : 1732616926368,
-        "stop" : 1732616927231,
-        "duration" : 863
-      }
-    } ]
-  },
-  "7d37e9491750020c784bd12f9edfeafd" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "f294d153dd8d41a",
-      "status" : "passed",
-      "time" : {
-        "start" : 1732616929191,
-        "stop" : 1732616929795,
-        "duration" : 604
+        "start" : 1732617155840,
+        "stop" : 1732617156656,
+        "duration" : 816
       }
     } ]
   },
@@ -104,12 +85,31 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "cf0abf8d676ef40d",
+      "uid" : "cc5f409bfd92520b",
       "status" : "passed",
       "time" : {
-        "start" : 1732616925706,
-        "stop" : 1732616926363,
-        "duration" : 657
+        "start" : 1732617155153,
+        "stop" : 1732617155834,
+        "duration" : 681
+      }
+    } ]
+  },
+  "7d37e9491750020c784bd12f9edfeafd" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c6948af6a4a6ffb9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1732617158636,
+        "stop" : 1732617159245,
+        "duration" : 609
       }
     } ]
   },
@@ -123,12 +123,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "3540b063fc329961",
+      "uid" : "11fb3d488e81e4a8",
       "status" : "passed",
       "time" : {
-        "start" : 1732616931028,
-        "stop" : 1732616931638,
-        "duration" : 610
+        "start" : 1732617160487,
+        "stop" : 1732617161075,
+        "duration" : 588
       }
     } ]
   },
@@ -142,12 +142,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "c1cce2fa7d074833",
+      "uid" : "540e03ada7eeac33",
       "status" : "passed",
       "time" : {
-        "start" : 1732616927235,
-        "stop" : 1732616927874,
-        "duration" : 639
+        "start" : 1732617156660,
+        "stop" : 1732617157298,
+        "duration" : 638
       }
     } ]
   },
@@ -161,12 +161,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "8e0a4a2bc29bef7f",
+      "uid" : "1745171ec5a4bf5e",
       "status" : "passed",
       "time" : {
-        "start" : 1732616928537,
-        "stop" : 1732616929186,
-        "duration" : 649
+        "start" : 1732617157985,
+        "stop" : 1732617158631,
+        "duration" : 646
       }
     } ]
   },
@@ -180,13 +180,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "81aaf1118d83ff31",
+      "uid" : "f3ddc33c1abdcc63",
       "status" : "broken",
-      "statusDetails" : "TypeError: 'NoneType' object is not iterable",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message: \nStacktrace:\nRemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8\nWebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5\nNoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16",
       "time" : {
-        "start" : 1732616952957,
-        "stop" : 1732616956065,
-        "duration" : 3108
+        "start" : 1732617197329,
+        "stop" : 1732617230665,
+        "duration" : 33336
       }
     } ]
   },
@@ -200,12 +200,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "68712f33015174c7",
+      "uid" : "f703f344659dae30",
       "status" : "passed",
       "time" : {
-        "start" : 1732616927878,
-        "stop" : 1732616928532,
-        "duration" : 654
+        "start" : 1732617157302,
+        "stop" : 1732617157981,
+        "duration" : 679
       }
     } ]
   },
@@ -219,32 +219,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "eb34d182153be8aa",
+      "uid" : "ac9c7aa1b049b6be",
       "status" : "passed",
       "time" : {
-        "start" : 1732616930409,
-        "stop" : 1732616931023,
-        "duration" : 614
+        "start" : 1732617159869,
+        "stop" : 1732617160482,
+        "duration" : 613
       }
     } ]
   },
   "2d5f7d1436342838c5d72ec97bea311a" : {
     "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
+      "failed" : 1,
+      "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "776b43aa7735ff41",
-      "status" : "broken",
-      "statusDetails" : "TypeError: 'NoneType' object is not iterable",
+      "uid" : "46d01cf4fc756a43",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Таймаут ожидания URL: /main",
       "time" : {
-        "start" : 1732616945825,
-        "stop" : 1732616949463,
-        "duration" : 3638
+        "start" : 1732617175042,
+        "stop" : 1732617193946,
+        "duration" : 18904
       }
     } ]
   },
@@ -258,12 +258,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "30b4683717c5e071",
+      "uid" : "95d2d4ba504cacb1",
       "status" : "passed",
       "time" : {
-        "start" : 1732616931642,
-        "stop" : 1732616932255,
-        "duration" : 613
+        "start" : 1732617161079,
+        "stop" : 1732617161739,
+        "duration" : 660
       }
     } ]
   }
