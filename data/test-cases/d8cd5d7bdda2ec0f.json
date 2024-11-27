@@ -1,12 +1,12 @@
 {
-  "uid" : "d8fa6c6b62ead51a",
+  "uid" : "d8cd5d7bdda2ec0f",
   "name" : "test_get_fin_stats_dev[8-2024-40]",
   "fullName" : "tests.api.tests_fin_stats.test_fin_stats#test_get_fin_stats_dev",
   "historyId" : "7d37e9491750020c784bd12f9edfeafd",
   "time" : {
-    "start" : 1732625328326,
-    "stop" : 1732625328988,
-    "duration" : 662
+    "start" : 1732692214801,
+    "stop" : 1732692215375,
+    "duration" : 574
   },
   "status" : "passed",
   "flaky" : false,
@@ -16,25 +16,10 @@
   "retriesCount" : 0,
   "retriesStatusChange" : false,
   "beforeStages" : [ {
-    "name" : "log_test_parameters",
-    "time" : {
-      "start" : 1732625328325,
-      "stop" : 1732625328325,
-      "duration" : 0
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
-  }, {
     "name" : "timer",
     "time" : {
-      "start" : 1732625328325,
-      "stop" : 1732625328325,
+      "start" : 1732692214800,
+      "stop" : 1732692214800,
       "duration" : 0
     },
     "status" : "passed",
@@ -46,10 +31,10 @@
     "shouldDisplayMessage" : false,
     "hasContent" : false
   }, {
-    "name" : "api_client_dev",
+    "name" : "log_test_parameters",
     "time" : {
-      "start" : 1732625328325,
-      "stop" : 1732625328325,
+      "start" : 1732692214800,
+      "stop" : 1732692214800,
       "duration" : 0
     },
     "status" : "passed",
@@ -63,8 +48,23 @@
   }, {
     "name" : "finstats_api_dev",
     "time" : {
-      "start" : 1732625328325,
-      "stop" : 1732625328325,
+      "start" : 1732692214801,
+      "stop" : 1732692214801,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "api_client_dev",
+    "time" : {
+      "start" : 1732692214801,
+      "stop" : 1732692214801,
       "duration" : 0
     },
     "status" : "passed",
@@ -79,8 +79,8 @@
   "afterStages" : [ {
     "name" : "timer::0",
     "time" : {
-      "start" : 1732625328990,
-      "stop" : 1732625328990,
+      "start" : 1732692215377,
+      "stop" : 1732692215377,
       "duration" : 0
     },
     "status" : "passed",
@@ -109,10 +109,10 @@
     "value" : "test_fin_stats"
   }, {
     "name" : "host",
-    "value" : "fv-az1055-285"
+    "value" : "fv-az817-817"
   }, {
     "name" : "thread",
-    "value" : "2164-MainThread"
+    "value" : "2183-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -145,6 +145,6 @@
     "categories" : [ ],
     "tags" : [ "dev", "stats", "regress" ]
   },
-  "source" : "d8fa6c6b62ead51a.json",
+  "source" : "d8cd5d7bdda2ec0f.json",
   "parameterValues" : [ "40", "8", "2024" ]
 }
