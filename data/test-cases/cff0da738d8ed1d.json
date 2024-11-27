@@ -1,13 +1,15 @@
 {
-  "uid" : "8fdb3a081989580b",
-  "name" : "test_get_fin_stats_dev[10-2024-2]",
-  "fullName" : "tests.api.tests_fin_stats.test_fin_stats#test_get_fin_stats_dev",
-  "historyId" : "a0e77774743c34a442a2c0b5d243691c",
+  "uid" : "cff0da738d8ed1d",
+  "name" : "Тест изменения пароля",
+  "fullName" : "tests.api.test_password.test_change_password#test_change_pass_dev",
+  "historyId" : "4924d299a9f4c6649a9c17ed30febb0b",
   "time" : {
-    "start" : 1732710870649,
-    "stop" : 1732710871167,
-    "duration" : 518
+    "start" : 1732710984139,
+    "stop" : 1732710984928,
+    "duration" : 789
   },
+  "description" : "Тест проверяет запрос на смену пароля по API.",
+  "descriptionHtml" : "<p>Тест проверяет запрос на смену пароля по API.</p>\n",
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
@@ -18,38 +20,8 @@
   "beforeStages" : [ {
     "name" : "timer",
     "time" : {
-      "start" : 1732710870648,
-      "stop" : 1732710870648,
-      "duration" : 0
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
-  }, {
-    "name" : "log_test_parameters",
-    "time" : {
-      "start" : 1732710870648,
-      "stop" : 1732710870648,
-      "duration" : 0
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
-  }, {
-    "name" : "finstats_api_dev",
-    "time" : {
-      "start" : 1732710870648,
-      "stop" : 1732710870648,
+      "start" : 1732710984138,
+      "stop" : 1732710984138,
       "duration" : 0
     },
     "status" : "passed",
@@ -63,9 +35,39 @@
   }, {
     "name" : "api_client_dev",
     "time" : {
-      "start" : 1732710870648,
-      "stop" : 1732710870648,
+      "start" : 1732710984138,
+      "stop" : 1732710984138,
       "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "log_test_parameters",
+    "time" : {
+      "start" : 1732710984138,
+      "stop" : 1732710984138,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "security_api_dev",
+    "time" : {
+      "start" : 1732710984138,
+      "stop" : 1732710984139,
+      "duration" : 1
     },
     "status" : "passed",
     "steps" : [ ],
@@ -79,8 +81,8 @@
   "afterStages" : [ {
     "name" : "timer::0",
     "time" : {
-      "start" : 1732710871169,
-      "stop" : 1732710871169,
+      "start" : 1732710984929,
+      "stop" : 1732710984929,
       "duration" : 0
     },
     "status" : "passed",
@@ -94,22 +96,16 @@
   } ],
   "labels" : [ {
     "name" : "tag",
-    "value" : "regress"
-  }, {
-    "name" : "tag",
     "value" : "dev"
   }, {
-    "name" : "tag",
-    "value" : "stats"
-  }, {
     "name" : "parentSuite",
-    "value" : "tests.api.tests_fin_stats"
+    "value" : "tests.api.test_password"
   }, {
     "name" : "suite",
-    "value" : "test_fin_stats"
+    "value" : "test_change_password"
   }, {
     "name" : "host",
-    "value" : "fv-az933-102"
+    "value" : "fv-az1770-844"
   }, {
     "name" : "thread",
     "value" : "2179-MainThread"
@@ -121,21 +117,12 @@
     "value" : "cpython3"
   }, {
     "name" : "package",
-    "value" : "tests.api.tests_fin_stats.test_fin_stats"
+    "value" : "tests.api.test_password.test_change_password"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
   } ],
-  "parameters" : [ {
-    "name" : "expected_count",
-    "value" : "2"
-  }, {
-    "name" : "month",
-    "value" : "10"
-  }, {
-    "name" : "year",
-    "value" : "2024"
-  } ],
+  "parameters" : [ ],
   "links" : [ ],
   "hidden" : false,
   "retry" : false,
@@ -143,8 +130,8 @@
     "severity" : "normal",
     "retries" : [ ],
     "categories" : [ ],
-    "tags" : [ "dev", "stats", "regress" ]
+    "tags" : [ "dev" ]
   },
-  "source" : "8fdb3a081989580b.json",
-  "parameterValues" : [ "2", "10", "2024" ]
+  "source" : "cff0da738d8ed1d.json",
+  "parameterValues" : [ ]
 }
