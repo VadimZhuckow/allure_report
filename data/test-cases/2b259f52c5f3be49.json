@@ -1,12 +1,12 @@
 {
-  "uid" : "a81b276ace1c5d86",
-  "name" : "test_get_filters_payment_dev[8-2024-239]",
+  "uid" : "2b259f52c5f3be49",
+  "name" : "test_get_filters_payment_dev[10-2024-498]",
   "fullName" : "tests.api.tests_filters.test_filters_payment#test_get_filters_payment_dev",
-  "historyId" : "8fd76fab8b3cad900ce07a13cdcc9351",
+  "historyId" : "7d04cf8633d8158ddcc3bd78c2b3c469",
   "time" : {
-    "start" : 1732702484973,
-    "stop" : 1732702485661,
-    "duration" : 688
+    "start" : 1732707781335,
+    "stop" : 1732707782099,
+    "duration" : 764
   },
   "status" : "passed",
   "flaky" : false,
@@ -16,25 +16,10 @@
   "retriesCount" : 0,
   "retriesStatusChange" : false,
   "beforeStages" : [ {
-    "name" : "log_test_parameters",
-    "time" : {
-      "start" : 1732702484972,
-      "stop" : 1732702484972,
-      "duration" : 0
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
-  }, {
     "name" : "timer",
     "time" : {
-      "start" : 1732702484972,
-      "stop" : 1732702484972,
+      "start" : 1732707781334,
+      "stop" : 1732707781334,
       "duration" : 0
     },
     "status" : "passed",
@@ -48,8 +33,23 @@
   }, {
     "name" : "api_client_dev",
     "time" : {
-      "start" : 1732702484973,
-      "stop" : 1732702484973,
+      "start" : 1732707781334,
+      "stop" : 1732707781334,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "log_test_parameters",
+    "time" : {
+      "start" : 1732707781334,
+      "stop" : 1732707781334,
       "duration" : 0
     },
     "status" : "passed",
@@ -63,8 +63,8 @@
   }, {
     "name" : "filters_api_dev",
     "time" : {
-      "start" : 1732702484973,
-      "stop" : 1732702484973,
+      "start" : 1732707781334,
+      "stop" : 1732707781334,
       "duration" : 0
     },
     "status" : "passed",
@@ -79,8 +79,8 @@
   "afterStages" : [ {
     "name" : "timer::0",
     "time" : {
-      "start" : 1732702485663,
-      "stop" : 1732702485663,
+      "start" : 1732707782100,
+      "stop" : 1732707782100,
       "duration" : 0
     },
     "status" : "passed",
@@ -103,10 +103,10 @@
     "value" : "test_filters_payment"
   }, {
     "name" : "host",
-    "value" : "fv-az1510-366"
+    "value" : "fv-az1482-939"
   }, {
     "name" : "thread",
-    "value" : "2178-MainThread"
+    "value" : "2234-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -122,10 +122,10 @@
   } ],
   "parameters" : [ {
     "name" : "expected_count",
-    "value" : "239"
+    "value" : "498"
   }, {
     "name" : "month",
-    "value" : "8"
+    "value" : "10"
   }, {
     "name" : "year",
     "value" : "2024"
@@ -139,6 +139,6 @@
     "categories" : [ ],
     "tags" : [ "dev" ]
   },
-  "source" : "a81b276ace1c5d86.json",
-  "parameterValues" : [ "239", "8", "2024" ]
+  "source" : "2b259f52c5f3be49.json",
+  "parameterValues" : [ "498", "10", "2024" ]
 }

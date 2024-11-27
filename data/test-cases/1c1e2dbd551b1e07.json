@@ -1,12 +1,12 @@
 {
-  "uid" : "32654eb728f823b9",
+  "uid" : "1c1e2dbd551b1e07",
   "name" : "Тест изменения пароля",
   "fullName" : "tests.api.test_password.test_change_password#test_change_pass_dev",
   "historyId" : "4924d299a9f4c6649a9c17ed30febb0b",
   "time" : {
-    "start" : 1732702484151,
-    "stop" : 1732702484969,
-    "duration" : 818
+    "start" : 1732707779150,
+    "stop" : 1732707779967,
+    "duration" : 817
   },
   "description" : "Тест проверяет запрос на смену пароля по API.",
   "descriptionHtml" : "<p>Тест проверяет запрос на смену пароля по API.</p>\n",
@@ -20,38 +20,8 @@
   "beforeStages" : [ {
     "name" : "timer",
     "time" : {
-      "start" : 1732702484150,
-      "stop" : 1732702484150,
-      "duration" : 0
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
-  }, {
-    "name" : "security_api_dev",
-    "time" : {
-      "start" : 1732702484150,
-      "stop" : 1732702484150,
-      "duration" : 0
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
-  }, {
-    "name" : "api_client_dev",
-    "time" : {
-      "start" : 1732702484150,
-      "stop" : 1732702484150,
+      "start" : 1732707779149,
+      "stop" : 1732707779149,
       "duration" : 0
     },
     "status" : "passed",
@@ -65,8 +35,38 @@
   }, {
     "name" : "log_test_parameters",
     "time" : {
-      "start" : 1732702484150,
-      "stop" : 1732702484150,
+      "start" : 1732707779149,
+      "stop" : 1732707779149,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "security_api_dev",
+    "time" : {
+      "start" : 1732707779150,
+      "stop" : 1732707779150,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "api_client_dev",
+    "time" : {
+      "start" : 1732707779150,
+      "stop" : 1732707779150,
       "duration" : 0
     },
     "status" : "passed",
@@ -78,41 +78,12 @@
     "shouldDisplayMessage" : false,
     "hasContent" : false
   } ],
-  "testStage" : {
-    "description" : "Тест проверяет запрос на смену пароля по API.",
-    "status" : "passed",
-    "steps" : [ {
-      "name" : "Выполнение теста смены пароля по API",
-      "time" : {
-        "start" : 1732702484151,
-        "stop" : 1732702484969,
-        "duration" : 818
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ {
-        "name" : "security_api_dev",
-        "value" : "SecurityAPI(base_url='https://api.sandbox.payplanet.com/', headers={'Authorization': 'Token 46a81fa9e4a28606fd7887eb0eb60a28122eb65e'})"
-      } ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : true
-    } ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 1,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : true
-  },
   "afterStages" : [ {
     "name" : "timer::0",
     "time" : {
-      "start" : 1732702484970,
-      "stop" : 1732702484971,
-      "duration" : 1
+      "start" : 1732707779968,
+      "stop" : 1732707779968,
+      "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
@@ -134,10 +105,10 @@
     "value" : "test_change_password"
   }, {
     "name" : "host",
-    "value" : "fv-az1510-366"
+    "value" : "fv-az1482-939"
   }, {
     "name" : "thread",
-    "value" : "2178-MainThread"
+    "value" : "2234-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -161,6 +132,6 @@
     "categories" : [ ],
     "tags" : [ "dev" ]
   },
-  "source" : "32654eb728f823b9.json",
+  "source" : "1c1e2dbd551b1e07.json",
   "parameterValues" : [ ]
 }
