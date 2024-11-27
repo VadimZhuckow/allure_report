@@ -1,13 +1,15 @@
 {
-  "uid" : "e0d8f27e8c022efd",
-  "name" : "test_send_registry_dev[apex69knight@gmail.com-2024-09-01 00:00:00-2024-09-30 23:59:59-174-200-Starting send registry]",
-  "fullName" : "tests.api.tests_registry.test_send_registry#test_send_registry_dev",
-  "historyId" : "91a00621daf046a93d89c8f2297f1e78",
+  "uid" : "5c94ca76cb325bc",
+  "name" : "Тест изменения пароля",
+  "fullName" : "tests.api.test_password.test_change_password#test_change_pass_dev",
+  "historyId" : "4924d299a9f4c6649a9c17ed30febb0b",
   "time" : {
-    "start" : 1732707786247,
-    "stop" : 1732707786789,
-    "duration" : 542
+    "start" : 1732708446153,
+    "stop" : 1732708446969,
+    "duration" : 816
   },
+  "description" : "Тест проверяет запрос на смену пароля по API.",
+  "descriptionHtml" : "<p>Тест проверяет запрос на смену пароля по API.</p>\n",
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
@@ -18,8 +20,8 @@
   "beforeStages" : [ {
     "name" : "log_test_parameters",
     "time" : {
-      "start" : 1732707786245,
-      "stop" : 1732707786245,
+      "start" : 1732708446152,
+      "stop" : 1732708446152,
       "duration" : 0
     },
     "status" : "passed",
@@ -31,10 +33,10 @@
     "shouldDisplayMessage" : false,
     "hasContent" : false
   }, {
-    "name" : "timer",
+    "name" : "security_api_dev",
     "time" : {
-      "start" : 1732707786245,
-      "stop" : 1732707786245,
+      "start" : 1732708446152,
+      "stop" : 1732708446152,
       "duration" : 0
     },
     "status" : "passed",
@@ -48,8 +50,8 @@
   }, {
     "name" : "api_client_dev",
     "time" : {
-      "start" : 1732707786246,
-      "stop" : 1732707786246,
+      "start" : 1732708446152,
+      "stop" : 1732708446152,
       "duration" : 0
     },
     "status" : "passed",
@@ -61,10 +63,10 @@
     "shouldDisplayMessage" : false,
     "hasContent" : false
   }, {
-    "name" : "registry_api_dev",
+    "name" : "timer",
     "time" : {
-      "start" : 1732707786246,
-      "stop" : 1732707786246,
+      "start" : 1732708446152,
+      "stop" : 1732708446152,
       "duration" : 0
     },
     "status" : "passed",
@@ -79,8 +81,8 @@
   "afterStages" : [ {
     "name" : "timer::0",
     "time" : {
-      "start" : 1732707786792,
-      "stop" : 1732707786792,
+      "start" : 1732708446970,
+      "stop" : 1732708446970,
       "duration" : 0
     },
     "status" : "passed",
@@ -96,23 +98,17 @@
     "name" : "tag",
     "value" : "dev"
   }, {
-    "name" : "tag",
-    "value" : "send_registry"
-  }, {
-    "name" : "tag",
-    "value" : "regress"
-  }, {
     "name" : "parentSuite",
-    "value" : "tests.api.tests_registry"
+    "value" : "tests.api.test_password"
   }, {
     "name" : "suite",
-    "value" : "test_send_registry"
+    "value" : "test_change_password"
   }, {
     "name" : "host",
-    "value" : "fv-az1482-939"
+    "value" : "fv-az1420-756"
   }, {
     "name" : "thread",
-    "value" : "2234-MainThread"
+    "value" : "2170-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -121,30 +117,12 @@
     "value" : "cpython3"
   }, {
     "name" : "package",
-    "value" : "tests.api.tests_registry.test_send_registry"
+    "value" : "tests.api.test_password.test_change_password"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
   } ],
-  "parameters" : [ {
-    "name" : "date_from",
-    "value" : "'2024-09-01 00:00:00'"
-  }, {
-    "name" : "date_to",
-    "value" : "'2024-09-30 23:59:59'"
-  }, {
-    "name" : "email",
-    "value" : "'apex69knight@gmail.com'"
-  }, {
-    "name" : "endpoint",
-    "value" : "174"
-  }, {
-    "name" : "expected_status",
-    "value" : "200"
-  }, {
-    "name" : "expected_substring",
-    "value" : "'Starting send registry'"
-  } ],
+  "parameters" : [ ],
   "links" : [ ],
   "hidden" : false,
   "retry" : false,
@@ -152,8 +130,8 @@
     "severity" : "normal",
     "retries" : [ ],
     "categories" : [ ],
-    "tags" : [ "dev", "regress", "send_registry" ]
+    "tags" : [ "dev" ]
   },
-  "source" : "e0d8f27e8c022efd.json",
-  "parameterValues" : [ "'2024-09-01 00:00:00'", "'2024-09-30 23:59:59'", "'apex69knight@gmail.com'", "174", "200", "'Starting send registry'" ]
+  "source" : "5c94ca76cb325bc.json",
+  "parameterValues" : [ ]
 }
