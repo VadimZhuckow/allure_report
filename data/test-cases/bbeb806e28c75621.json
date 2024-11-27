@@ -1,15 +1,15 @@
 {
-  "uid" : "fdc104ccfef5504b",
-  "name" : "Тест запроса info для платежа",
-  "fullName" : "tests.api.tests_paymentgate.test_get_info_payment#test_get_info_payment",
-  "historyId" : "26546f721fee533a9626437891adc169",
+  "uid" : "bbeb806e28c75621",
+  "name" : "Тест изменения пароля",
+  "fullName" : "tests.api.test_password.test_change_password#test_change_pass_dev",
+  "historyId" : "4924d299a9f4c6649a9c17ed30febb0b",
   "time" : {
-    "start" : 1732692216532,
-    "stop" : 1732692217115,
-    "duration" : 583
+    "start" : 1732692273778,
+    "stop" : 1732692274844,
+    "duration" : 1066
   },
-  "description" : "Тест проверяет запрос инфо для платежа API, Для апи тестов не добавляю шаги тк там чувствительная информация.",
-  "descriptionHtml" : "<p>Тест проверяет запрос инфо для платежа API, Для апи тестов не добавляю шаги тк там чувствительная информация.</p>\n",
+  "description" : "Тест проверяет запрос на смену пароля по API.",
+  "descriptionHtml" : "<p>Тест проверяет запрос на смену пароля по API.</p>\n",
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
@@ -20,38 +20,8 @@
   "beforeStages" : [ {
     "name" : "log_test_parameters",
     "time" : {
-      "start" : 1732692216532,
-      "stop" : 1732692216532,
-      "duration" : 0
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
-  }, {
-    "name" : "payment_info_api_dev",
-    "time" : {
-      "start" : 1732692216532,
-      "stop" : 1732692216532,
-      "duration" : 0
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
-  }, {
-    "name" : "timer",
-    "time" : {
-      "start" : 1732692216532,
-      "stop" : 1732692216532,
+      "start" : 1732692273776,
+      "stop" : 1732692273776,
       "duration" : 0
     },
     "status" : "passed",
@@ -65,8 +35,38 @@
   }, {
     "name" : "api_client_dev",
     "time" : {
-      "start" : 1732692216532,
-      "stop" : 1732692216532,
+      "start" : 1732692273777,
+      "stop" : 1732692273777,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "timer",
+    "time" : {
+      "start" : 1732692273777,
+      "stop" : 1732692273777,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "security_api_dev",
+    "time" : {
+      "start" : 1732692273777,
+      "stop" : 1732692273777,
       "duration" : 0
     },
     "status" : "passed",
@@ -78,11 +78,40 @@
     "shouldDisplayMessage" : false,
     "hasContent" : false
   } ],
+  "testStage" : {
+    "description" : "Тест проверяет запрос на смену пароля по API.",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Выполнение теста смены пароля по API",
+      "time" : {
+        "start" : 1732692273778,
+        "stop" : 1732692274844,
+        "duration" : 1066
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "security_api_dev",
+        "value" : "SecurityAPI(base_url='https://api.sandbox.payplanet.com/', headers={'Authorization': 'Token 46a81fa9e4a28606fd7887eb0eb60a28122eb65e'})"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
   "afterStages" : [ {
     "name" : "timer::0",
     "time" : {
-      "start" : 1732692217117,
-      "stop" : 1732692217117,
+      "start" : 1732692274847,
+      "stop" : 1732692274847,
       "duration" : 0
     },
     "status" : "passed",
@@ -99,16 +128,16 @@
     "value" : "dev"
   }, {
     "name" : "parentSuite",
-    "value" : "tests.api.tests_paymentgate"
+    "value" : "tests.api.test_password"
   }, {
     "name" : "suite",
-    "value" : "test_get_info_payment"
+    "value" : "test_change_password"
   }, {
     "name" : "host",
-    "value" : "fv-az817-817"
+    "value" : "fv-az1187-840"
   }, {
     "name" : "thread",
-    "value" : "2183-MainThread"
+    "value" : "2188-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -117,7 +146,7 @@
     "value" : "cpython3"
   }, {
     "name" : "package",
-    "value" : "tests.api.tests_paymentgate.test_get_info_payment"
+    "value" : "tests.api.test_password.test_change_password"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -132,6 +161,6 @@
     "categories" : [ ],
     "tags" : [ "dev" ]
   },
-  "source" : "fdc104ccfef5504b.json",
+  "source" : "bbeb806e28c75621.json",
   "parameterValues" : [ ]
 }
