@@ -1,15 +1,13 @@
 {
-  "uid" : "499bd53c22374bcd",
-  "name" : "Тест запроса info для платежа",
-  "fullName" : "tests.api.tests_paymentgate.test_get_info_payment#test_get_info_payment_dev",
-  "historyId" : "ad441db1c3d9d2ce227b11caa5f975fd",
+  "uid" : "9b4f5be26057693e",
+  "name" : "test_get_filters_payout_dev[8-2024-84]",
+  "fullName" : "tests.api.tests_filters.test_filters_payout#test_get_filters_payout_dev",
+  "historyId" : "c2f99c473f30e2189b7672ac3d79a7fb",
   "time" : {
-    "start" : 1732708452744,
-    "stop" : 1732708453322,
-    "duration" : 578
+    "start" : 1732710867653,
+    "stop" : 1732710868256,
+    "duration" : 603
   },
-  "description" : "Тест проверяет запрос инфо для платежа API, Для апи тестов не добавляю шаги тк там чувствительная информация.",
-  "descriptionHtml" : "<p>Тест проверяет запрос инфо для платежа API, Для апи тестов не добавляю шаги тк там чувствительная информация.</p>\n",
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
@@ -18,40 +16,25 @@
   "retriesCount" : 0,
   "retriesStatusChange" : false,
   "beforeStages" : [ {
-    "name" : "timer",
-    "time" : {
-      "start" : 1732708452744,
-      "stop" : 1732708452744,
-      "duration" : 0
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
-  }, {
-    "name" : "payment_info_api_dev",
-    "time" : {
-      "start" : 1732708452744,
-      "stop" : 1732708452744,
-      "duration" : 0
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
-  }, {
     "name" : "log_test_parameters",
     "time" : {
-      "start" : 1732708452744,
-      "stop" : 1732708452744,
+      "start" : 1732710867652,
+      "stop" : 1732710867652,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "timer",
+    "time" : {
+      "start" : 1732710867653,
+      "stop" : 1732710867653,
       "duration" : 0
     },
     "status" : "passed",
@@ -65,8 +48,23 @@
   }, {
     "name" : "api_client_dev",
     "time" : {
-      "start" : 1732708452744,
-      "stop" : 1732708452744,
+      "start" : 1732710867653,
+      "stop" : 1732710867653,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "filters_api_dev",
+    "time" : {
+      "start" : 1732710867653,
+      "stop" : 1732710867653,
       "duration" : 0
     },
     "status" : "passed",
@@ -81,8 +79,8 @@
   "afterStages" : [ {
     "name" : "timer::0",
     "time" : {
-      "start" : 1732708453324,
-      "stop" : 1732708453324,
+      "start" : 1732710868257,
+      "stop" : 1732710868257,
       "duration" : 0
     },
     "status" : "passed",
@@ -98,17 +96,23 @@
     "name" : "tag",
     "value" : "dev"
   }, {
+    "name" : "tag",
+    "value" : "regress"
+  }, {
+    "name" : "tag",
+    "value" : "payment"
+  }, {
     "name" : "parentSuite",
-    "value" : "tests.api.tests_paymentgate"
+    "value" : "tests.api.tests_filters"
   }, {
     "name" : "suite",
-    "value" : "test_get_info_payment"
+    "value" : "test_filters_payout"
   }, {
     "name" : "host",
-    "value" : "fv-az1420-756"
+    "value" : "fv-az933-102"
   }, {
     "name" : "thread",
-    "value" : "2170-MainThread"
+    "value" : "2179-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -117,12 +121,21 @@
     "value" : "cpython3"
   }, {
     "name" : "package",
-    "value" : "tests.api.tests_paymentgate.test_get_info_payment"
+    "value" : "tests.api.tests_filters.test_filters_payout"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
   } ],
-  "parameters" : [ ],
+  "parameters" : [ {
+    "name" : "expected_count",
+    "value" : "84"
+  }, {
+    "name" : "month",
+    "value" : "8"
+  }, {
+    "name" : "year",
+    "value" : "2024"
+  } ],
   "links" : [ ],
   "hidden" : false,
   "retry" : false,
@@ -130,8 +143,8 @@
     "severity" : "normal",
     "retries" : [ ],
     "categories" : [ ],
-    "tags" : [ "dev" ]
+    "tags" : [ "dev", "regress", "payment" ]
   },
-  "source" : "499bd53c22374bcd.json",
-  "parameterValues" : [ ]
+  "source" : "9b4f5be26057693e.json",
+  "parameterValues" : [ "84", "8", "2024" ]
 }

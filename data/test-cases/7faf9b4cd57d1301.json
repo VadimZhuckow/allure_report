@@ -1,13 +1,15 @@
 {
-  "uid" : "bf11cbbfabbbb713",
-  "name" : "test_get_filters_payment_dev[9-2024-485]",
-  "fullName" : "tests.api.tests_filters.test_filters_payment#test_get_filters_payment_dev",
-  "historyId" : "fa84d654766ee589bf8e546787fa8471",
+  "uid" : "7faf9b4cd57d1301",
+  "name" : "Тест запроса info для платежа",
+  "fullName" : "tests.api.tests_paymentgate.test_get_info_payment#test_get_info_payment_dev",
+  "historyId" : "ad441db1c3d9d2ce227b11caa5f975fd",
   "time" : {
-    "start" : 1732708447683,
-    "stop" : 1732708448308,
-    "duration" : 625
+    "start" : 1732710871172,
+    "stop" : 1732710871772,
+    "duration" : 600
   },
+  "description" : "Тест проверяет запрос инфо для платежа API, Для апи тестов не добавляю шаги тк там чувствительная информация.",
+  "descriptionHtml" : "<p>Тест проверяет запрос инфо для платежа API, Для апи тестов не добавляю шаги тк там чувствительная информация.</p>\n",
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
@@ -16,10 +18,25 @@
   "retriesCount" : 0,
   "retriesStatusChange" : false,
   "beforeStages" : [ {
+    "name" : "payment_info_api_dev",
+    "time" : {
+      "start" : 1732710871171,
+      "stop" : 1732710871171,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
     "name" : "log_test_parameters",
     "time" : {
-      "start" : 1732708447681,
-      "stop" : 1732708447681,
+      "start" : 1732710871171,
+      "stop" : 1732710871171,
       "duration" : 0
     },
     "status" : "passed",
@@ -33,23 +50,8 @@
   }, {
     "name" : "timer",
     "time" : {
-      "start" : 1732708447681,
-      "stop" : 1732708447681,
-      "duration" : 0
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
-  }, {
-    "name" : "filters_api_dev",
-    "time" : {
-      "start" : 1732708447682,
-      "stop" : 1732708447682,
+      "start" : 1732710871171,
+      "stop" : 1732710871171,
       "duration" : 0
     },
     "status" : "passed",
@@ -63,8 +65,8 @@
   }, {
     "name" : "api_client_dev",
     "time" : {
-      "start" : 1732708447682,
-      "stop" : 1732708447682,
+      "start" : 1732710871171,
+      "stop" : 1732710871171,
       "duration" : 0
     },
     "status" : "passed",
@@ -79,8 +81,8 @@
   "afterStages" : [ {
     "name" : "timer::0",
     "time" : {
-      "start" : 1732708448309,
-      "stop" : 1732708448309,
+      "start" : 1732710871773,
+      "stop" : 1732710871773,
       "duration" : 0
     },
     "status" : "passed",
@@ -97,16 +99,16 @@
     "value" : "dev"
   }, {
     "name" : "parentSuite",
-    "value" : "tests.api.tests_filters"
+    "value" : "tests.api.tests_paymentgate"
   }, {
     "name" : "suite",
-    "value" : "test_filters_payment"
+    "value" : "test_get_info_payment"
   }, {
     "name" : "host",
-    "value" : "fv-az1420-756"
+    "value" : "fv-az933-102"
   }, {
     "name" : "thread",
-    "value" : "2170-MainThread"
+    "value" : "2179-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -115,21 +117,12 @@
     "value" : "cpython3"
   }, {
     "name" : "package",
-    "value" : "tests.api.tests_filters.test_filters_payment"
+    "value" : "tests.api.tests_paymentgate.test_get_info_payment"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
   } ],
-  "parameters" : [ {
-    "name" : "expected_count",
-    "value" : "485"
-  }, {
-    "name" : "month",
-    "value" : "9"
-  }, {
-    "name" : "year",
-    "value" : "2024"
-  } ],
+  "parameters" : [ ],
   "links" : [ ],
   "hidden" : false,
   "retry" : false,
@@ -139,6 +132,6 @@
     "categories" : [ ],
     "tags" : [ "dev" ]
   },
-  "source" : "bf11cbbfabbbb713.json",
-  "parameterValues" : [ "485", "9", "2024" ]
+  "source" : "7faf9b4cd57d1301.json",
+  "parameterValues" : [ ]
 }
