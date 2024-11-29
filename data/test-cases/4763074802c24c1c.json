@@ -1,12 +1,12 @@
 {
-  "uid" : "236c946b11e477f1",
+  "uid" : "4763074802c24c1c",
   "name" : "Тест смены пароля для юзера apexknight@yandex.ru",
   "fullName" : "tests.ui.change_password.test_change_password#test_change_password_ui_dev",
   "historyId" : "cced318d65eb1a3a4996e14e66146ebc",
   "time" : {
-    "start" : 1732778679458,
-    "stop" : 1732778685981,
-    "duration" : 6523
+    "start" : 1732865072248,
+    "stop" : 1732865078380,
+    "duration" : 6132
   },
   "status" : "passed",
   "flaky" : false,
@@ -18,9 +18,9 @@
   "beforeStages" : [ {
     "name" : "setup_driver",
     "time" : {
-      "start" : 1732778677171,
-      "stop" : 1732778679457,
-      "duration" : 2286
+      "start" : 1732865069787,
+      "stop" : 1732865072248,
+      "duration" : 2461
     },
     "status" : "passed",
     "steps" : [ ],
@@ -36,9 +36,9 @@
     "steps" : [ {
       "name" : "Нажать кнопку 'Начать'",
       "time" : {
-        "start" : 1732778680886,
-        "stop" : 1732778682208,
-        "duration" : 1322
+        "start" : 1732865073670,
+        "stop" : 1732865074980,
+        "duration" : 1310
       },
       "status" : "passed",
       "steps" : [ ],
@@ -51,9 +51,9 @@
     }, {
       "name" : "Ввести адрес электронной почты и пароль",
       "time" : {
-        "start" : 1732778682208,
-        "stop" : 1732778682366,
-        "duration" : 158
+        "start" : 1732865074980,
+        "stop" : 1732865075136,
+        "duration" : 156
       },
       "status" : "passed",
       "steps" : [ ],
@@ -66,9 +66,9 @@
     }, {
       "name" : "Перейти в настройки",
       "time" : {
-        "start" : 1732778682366,
-        "stop" : 1732778684167,
-        "duration" : 1801
+        "start" : 1732865075137,
+        "stop" : 1732865076528,
+        "duration" : 1391
       },
       "status" : "passed",
       "steps" : [ ],
@@ -81,9 +81,9 @@
     }, {
       "name" : "Перейти в раздел безопасности",
       "time" : {
-        "start" : 1732778684167,
-        "stop" : 1732778684426,
-        "duration" : 259
+        "start" : 1732865076528,
+        "stop" : 1732865076813,
+        "duration" : 285
       },
       "status" : "passed",
       "steps" : [ ],
@@ -96,9 +96,9 @@
     }, {
       "name" : "Ввести старый и новый пароли",
       "time" : {
-        "start" : 1732778684426,
-        "stop" : 1732778684509,
-        "duration" : 83
+        "start" : 1732865076813,
+        "stop" : 1732865076897,
+        "duration" : 84
       },
       "status" : "passed",
       "steps" : [ ],
@@ -111,9 +111,9 @@
     }, {
       "name" : "Сохранить изменения",
       "time" : {
-        "start" : 1732778684509,
-        "stop" : 1732778684746,
-        "duration" : 237
+        "start" : 1732865076897,
+        "stop" : 1732865077131,
+        "duration" : 234
       },
       "status" : "passed",
       "steps" : [ ],
@@ -126,9 +126,9 @@
     }, {
       "name" : "Проверить, что появилось модальное окно с сообщением об успешном изменении пароля",
       "time" : {
-        "start" : 1732778684747,
-        "stop" : 1732778685265,
-        "duration" : 518
+        "start" : 1732865077131,
+        "stop" : 1732865077648,
+        "duration" : 517
       },
       "status" : "passed",
       "steps" : [ ],
@@ -141,18 +141,18 @@
     }, {
       "name" : "Прикрепить скриншот после изменения пароля",
       "time" : {
-        "start" : 1732778685265,
-        "stop" : 1732778685317,
-        "duration" : 52
+        "start" : 1732865077648,
+        "stop" : 1732865077720,
+        "duration" : 72
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ {
-        "uid" : "3d6c6335a0abee0d",
+        "uid" : "74d538b6ba7bfe7",
         "name" : "Screenshot after password change",
-        "source" : "3d6c6335a0abee0d.png",
+        "source" : "74d538b6ba7bfe7.png",
         "type" : "image/png",
-        "size" : 91962
+        "size" : 92462
       } ],
       "parameters" : [ ],
       "stepsCount" : 0,
@@ -161,9 +161,9 @@
       "hasContent" : true
     } ],
     "attachments" : [ {
-      "uid" : "a567f7f221de3fdc",
+      "uid" : "6ae293aed9e4ec32",
       "name" : "log",
-      "source" : "a567f7f221de3fdc.txt",
+      "source" : "6ae293aed9e4ec32.txt",
       "type" : "text/plain",
       "size" : 1085
     } ],
@@ -176,9 +176,9 @@
   "afterStages" : [ {
     "name" : "setup_driver::0",
     "time" : {
-      "start" : 1732778685982,
-      "stop" : 1732778685984,
-      "duration" : 2
+      "start" : 1732865078381,
+      "stop" : 1732865078384,
+      "duration" : 3
     },
     "status" : "passed",
     "steps" : [ ],
@@ -203,10 +203,10 @@
     "value" : "test_change_password"
   }, {
     "name" : "host",
-    "value" : "fv-az1086-589"
+    "value" : "fv-az1667-242"
   }, {
     "name" : "thread",
-    "value" : "2164-MainThread"
+    "value" : "2201-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -230,6 +230,6 @@
     "categories" : [ ],
     "tags" : [ "dev" ]
   },
-  "source" : "236c946b11e477f1.json",
+  "source" : "4763074802c24c1c.json",
   "parameterValues" : [ ]
 }
