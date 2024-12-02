@@ -1,15 +1,13 @@
 {
-  "uid" : "f391065584272709",
-  "name" : "Тест запроса info для платежа",
-  "fullName" : "tests.api.tests_paymentgate.test_get_info_payment#test_get_info_payment_dev",
-  "historyId" : "ad441db1c3d9d2ce227b11caa5f975fd",
+  "uid" : "a8f7e06ff99ab844",
+  "name" : "test_get_filters_payment_dev[10-2024-498]",
+  "fullName" : "tests.api.tests_filters.test_filters_payment#test_get_filters_payment_dev",
+  "historyId" : "7d04cf8633d8158ddcc3bd78c2b3c469",
   "time" : {
-    "start" : 1733127227363,
-    "stop" : 1733127227902,
-    "duration" : 539
+    "start" : 1733127304504,
+    "stop" : 1733127305388,
+    "duration" : 884
   },
-  "description" : "Тест проверяет запрос инфо для платежа API, Для апи тестов не добавляю шаги тк там чувствительная информация.",
-  "descriptionHtml" : "<p>Тест проверяет запрос инфо для платежа API, Для апи тестов не добавляю шаги тк там чувствительная информация.</p>\n",
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
@@ -18,10 +16,25 @@
   "retriesCount" : 0,
   "retriesStatusChange" : false,
   "beforeStages" : [ {
+    "name" : "api_client_dev",
+    "time" : {
+      "start" : 1733127304503,
+      "stop" : 1733127304503,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
     "name" : "log_test_parameters",
     "time" : {
-      "start" : 1733127227362,
-      "stop" : 1733127227362,
+      "start" : 1733127304503,
+      "stop" : 1733127304503,
       "duration" : 0
     },
     "status" : "passed",
@@ -35,8 +48,8 @@
   }, {
     "name" : "timer",
     "time" : {
-      "start" : 1733127227363,
-      "stop" : 1733127227363,
+      "start" : 1733127304503,
+      "stop" : 1733127304503,
       "duration" : 0
     },
     "status" : "passed",
@@ -48,25 +61,10 @@
     "shouldDisplayMessage" : false,
     "hasContent" : false
   }, {
-    "name" : "api_client_dev",
+    "name" : "filters_api_dev",
     "time" : {
-      "start" : 1733127227363,
-      "stop" : 1733127227363,
-      "duration" : 0
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
-  }, {
-    "name" : "payment_info_api_dev",
-    "time" : {
-      "start" : 1733127227363,
-      "stop" : 1733127227363,
+      "start" : 1733127304503,
+      "stop" : 1733127304503,
       "duration" : 0
     },
     "status" : "passed",
@@ -81,8 +79,8 @@
   "afterStages" : [ {
     "name" : "timer::0",
     "time" : {
-      "start" : 1733127227903,
-      "stop" : 1733127227903,
+      "start" : 1733127305390,
+      "stop" : 1733127305390,
       "duration" : 0
     },
     "status" : "passed",
@@ -99,16 +97,16 @@
     "value" : "dev"
   }, {
     "name" : "parentSuite",
-    "value" : "tests.api.tests_paymentgate"
+    "value" : "tests.api.tests_filters"
   }, {
     "name" : "suite",
-    "value" : "test_get_info_payment"
+    "value" : "test_filters_payment"
   }, {
     "name" : "host",
-    "value" : "fv-az1666-39"
+    "value" : "fv-az1794-968"
   }, {
     "name" : "thread",
-    "value" : "2190-MainThread"
+    "value" : "2173-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -117,12 +115,21 @@
     "value" : "cpython3"
   }, {
     "name" : "package",
-    "value" : "tests.api.tests_paymentgate.test_get_info_payment"
+    "value" : "tests.api.tests_filters.test_filters_payment"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
   } ],
-  "parameters" : [ ],
+  "parameters" : [ {
+    "name" : "expected_count",
+    "value" : "498"
+  }, {
+    "name" : "month",
+    "value" : "10"
+  }, {
+    "name" : "year",
+    "value" : "2024"
+  } ],
   "links" : [ ],
   "hidden" : false,
   "retry" : false,
@@ -132,6 +139,6 @@
     "categories" : [ ],
     "tags" : [ "dev" ]
   },
-  "source" : "f391065584272709.json",
-  "parameterValues" : [ ]
+  "source" : "a8f7e06ff99ab844.json",
+  "parameterValues" : [ "498", "10", "2024" ]
 }

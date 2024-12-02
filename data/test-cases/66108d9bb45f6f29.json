@@ -1,13 +1,15 @@
 {
-  "uid" : "e102e57ca2626afd",
-  "name" : "test_get_filters_payout_dev[10-2024-56]",
-  "fullName" : "tests.api.tests_filters.test_filters_payout#test_get_filters_payout_dev",
-  "historyId" : "af8e33612bfff2389e90e027f181ad1d",
+  "uid" : "66108d9bb45f6f29",
+  "name" : "Тест изменения пароля",
+  "fullName" : "tests.api.test_password.test_change_password#test_change_pass_dev",
+  "historyId" : "4924d299a9f4c6649a9c17ed30febb0b",
   "time" : {
-    "start" : 1733127225142,
-    "stop" : 1733127225704,
-    "duration" : 562
+    "start" : 1733127302012,
+    "stop" : 1733127302928,
+    "duration" : 916
   },
+  "description" : "Тест проверяет запрос на смену пароля по API.",
+  "descriptionHtml" : "<p>Тест проверяет запрос на смену пароля по API.</p>\n",
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
@@ -16,10 +18,10 @@
   "retriesCount" : 0,
   "retriesStatusChange" : false,
   "beforeStages" : [ {
-    "name" : "filters_api_dev",
+    "name" : "timer",
     "time" : {
-      "start" : 1733127225141,
-      "stop" : 1733127225141,
+      "start" : 1733127302011,
+      "stop" : 1733127302011,
       "duration" : 0
     },
     "status" : "passed",
@@ -31,10 +33,10 @@
     "shouldDisplayMessage" : false,
     "hasContent" : false
   }, {
-    "name" : "log_test_parameters",
+    "name" : "security_api_dev",
     "time" : {
-      "start" : 1733127225141,
-      "stop" : 1733127225141,
+      "start" : 1733127302011,
+      "stop" : 1733127302011,
       "duration" : 0
     },
     "status" : "passed",
@@ -48,8 +50,8 @@
   }, {
     "name" : "api_client_dev",
     "time" : {
-      "start" : 1733127225141,
-      "stop" : 1733127225141,
+      "start" : 1733127302011,
+      "stop" : 1733127302011,
       "duration" : 0
     },
     "status" : "passed",
@@ -61,10 +63,10 @@
     "shouldDisplayMessage" : false,
     "hasContent" : false
   }, {
-    "name" : "timer",
+    "name" : "log_test_parameters",
     "time" : {
-      "start" : 1733127225141,
-      "stop" : 1733127225141,
+      "start" : 1733127302011,
+      "stop" : 1733127302011,
       "duration" : 0
     },
     "status" : "passed",
@@ -79,8 +81,8 @@
   "afterStages" : [ {
     "name" : "timer::0",
     "time" : {
-      "start" : 1733127225706,
-      "stop" : 1733127225706,
+      "start" : 1733127302929,
+      "stop" : 1733127302929,
       "duration" : 0
     },
     "status" : "passed",
@@ -96,23 +98,17 @@
     "name" : "tag",
     "value" : "dev"
   }, {
-    "name" : "tag",
-    "value" : "regress"
-  }, {
-    "name" : "tag",
-    "value" : "payment"
-  }, {
     "name" : "parentSuite",
-    "value" : "tests.api.tests_filters"
+    "value" : "tests.api.test_password"
   }, {
     "name" : "suite",
-    "value" : "test_filters_payout"
+    "value" : "test_change_password"
   }, {
     "name" : "host",
-    "value" : "fv-az1666-39"
+    "value" : "fv-az1794-968"
   }, {
     "name" : "thread",
-    "value" : "2190-MainThread"
+    "value" : "2173-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -121,21 +117,12 @@
     "value" : "cpython3"
   }, {
     "name" : "package",
-    "value" : "tests.api.tests_filters.test_filters_payout"
+    "value" : "tests.api.test_password.test_change_password"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
   } ],
-  "parameters" : [ {
-    "name" : "expected_count",
-    "value" : "56"
-  }, {
-    "name" : "month",
-    "value" : "10"
-  }, {
-    "name" : "year",
-    "value" : "2024"
-  } ],
+  "parameters" : [ ],
   "links" : [ ],
   "hidden" : false,
   "retry" : false,
@@ -143,8 +130,8 @@
     "severity" : "normal",
     "retries" : [ ],
     "categories" : [ ],
-    "tags" : [ "dev", "regress", "payment" ]
+    "tags" : [ "dev" ]
   },
-  "source" : "e102e57ca2626afd.json",
-  "parameterValues" : [ "56", "10", "2024" ]
+  "source" : "66108d9bb45f6f29.json",
+  "parameterValues" : [ ]
 }
