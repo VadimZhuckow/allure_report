@@ -1,12 +1,12 @@
 {
-  "uid" : "2d98e448976ac78e",
+  "uid" : "4c068da824faf6f6",
   "name" : "test_send_registry_dev[apex69knight@gmail.com-2024-09-01 00:00:00-2024-09-30 23:59:59-174-200-Starting send registry]",
   "fullName" : "tests.api.tests_registry.test_send_registry#test_send_registry_dev",
   "historyId" : "91a00621daf046a93d89c8f2297f1e78",
   "time" : {
-    "start" : 1733127432968,
-    "stop" : 1733127433557,
-    "duration" : 589
+    "start" : 1733127675005,
+    "stop" : 1733127675692,
+    "duration" : 687
   },
   "status" : "passed",
   "flaky" : false,
@@ -16,25 +16,10 @@
   "retriesCount" : 0,
   "retriesStatusChange" : false,
   "beforeStages" : [ {
-    "name" : "api_client_dev",
-    "time" : {
-      "start" : 1733127432967,
-      "stop" : 1733127432967,
-      "duration" : 0
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
-  }, {
     "name" : "log_test_parameters",
     "time" : {
-      "start" : 1733127432967,
-      "stop" : 1733127432967,
+      "start" : 1733127675004,
+      "stop" : 1733127675004,
       "duration" : 0
     },
     "status" : "passed",
@@ -46,10 +31,10 @@
     "shouldDisplayMessage" : false,
     "hasContent" : false
   }, {
-    "name" : "registry_api_dev",
+    "name" : "api_client_dev",
     "time" : {
-      "start" : 1733127432967,
-      "stop" : 1733127432967,
+      "start" : 1733127675004,
+      "stop" : 1733127675004,
       "duration" : 0
     },
     "status" : "passed",
@@ -63,9 +48,24 @@
   }, {
     "name" : "timer",
     "time" : {
-      "start" : 1733127432967,
-      "stop" : 1733127432967,
+      "start" : 1733127675004,
+      "stop" : 1733127675004,
       "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "registry_api_dev",
+    "time" : {
+      "start" : 1733127675004,
+      "stop" : 1733127675005,
+      "duration" : 1
     },
     "status" : "passed",
     "steps" : [ ],
@@ -79,8 +79,8 @@
   "afterStages" : [ {
     "name" : "timer::0",
     "time" : {
-      "start" : 1733127433560,
-      "stop" : 1733127433560,
+      "start" : 1733127675694,
+      "stop" : 1733127675694,
       "duration" : 0
     },
     "status" : "passed",
@@ -109,10 +109,10 @@
     "value" : "test_send_registry"
   }, {
     "name" : "host",
-    "value" : "fv-az1414-340"
+    "value" : "fv-az1748-648"
   }, {
     "name" : "thread",
-    "value" : "2186-MainThread"
+    "value" : "2244-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -154,6 +154,6 @@
     "categories" : [ ],
     "tags" : [ "dev", "regress", "send_registry" ]
   },
-  "source" : "2d98e448976ac78e.json",
+  "source" : "4c068da824faf6f6.json",
   "parameterValues" : [ "'2024-09-01 00:00:00'", "'2024-09-30 23:59:59'", "'apex69knight@gmail.com'", "174", "200", "'Starting send registry'" ]
 }

@@ -1,140 +1,140 @@
 [ {
-  "uid" : "aee80486f3c1f596",
-  "name" : "Тест смены пароля для юзера apexknight@yandex.ru",
-  "time" : {
-    "start" : 1733127461378,
-    "stop" : 1733127468112,
-    "duration" : 6734
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "21c610038b0f627",
-  "name" : "test_get_filters_payment_dev[9-2024-485]",
-  "time" : {
-    "start" : 1733127426842,
-    "stop" : 1733127427504,
-    "duration" : 662
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "c6c1590a4a34247e",
-  "name" : "test_get_fin_stats_dev[8-2024-40]",
-  "time" : {
-    "start" : 1733127430319,
-    "stop" : 1733127431008,
-    "duration" : 689
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "fce587741453ffe",
+  "uid" : "65d17edb922f12ee",
   "name" : "test_get_filters_payout_dev[9-2024-933]",
   "time" : {
-    "start" : 1733127428947,
-    "stop" : 1733127429614,
-    "duration" : 667
+    "start" : 1733127670792,
+    "stop" : 1733127671499,
+    "duration" : 707
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "6ee1da44fa70e365",
-  "name" : "test_get_filters_payment_dev[8-2024-239]",
-  "time" : {
-    "start" : 1733127426048,
-    "stop" : 1733127426834,
-    "duration" : 786
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "a8627a91d2a677a",
-  "name" : "test_get_filters_payout_dev[10-2024-56]",
-  "time" : {
-    "start" : 1733127429618,
-    "stop" : 1733127430314,
-    "duration" : 696
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "b174f81a359a294d",
-  "name" : "test_get_filters_payout_dev[8-2024-84]",
-  "time" : {
-    "start" : 1733127428315,
-    "stop" : 1733127428942,
-    "duration" : 627
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "e9dee786b2e321de",
-  "name" : "Тест запроса info для платежа",
-  "time" : {
-    "start" : 1733127432318,
-    "stop" : 1733127432964,
-    "duration" : 646
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "ece3695fdec6f7d3",
-  "name" : "test_get_fin_stats_dev[10-2024-2]",
-  "time" : {
-    "start" : 1733127431635,
-    "stop" : 1733127432314,
-    "duration" : 679
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "eaf9e53c86d3afb1",
+  "uid" : "47a7a271c5092079",
   "name" : "Тест логина для юзера apexknight@yandex.ru в окружении dev",
   "time" : {
-    "start" : 1733127447965,
-    "stop" : 1733127458600,
-    "duration" : 10635
+    "start" : 1733127687230,
+    "stop" : 1733127698476,
+    "duration" : 11246
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "d09329862860fcd7",
-  "name" : "Тест изменения пароля",
+  "uid" : "f502f0c53a962687",
+  "name" : "test_get_filters_payment_dev[8-2024-239]",
   "time" : {
-    "start" : 1733127425172,
-    "stop" : 1733127426044,
-    "duration" : 872
+    "start" : 1733127667673,
+    "stop" : 1733127668520,
+    "duration" : 847
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "c1752195b646de94",
-  "name" : "test_get_filters_payment_dev[10-2024-498]",
+  "uid" : "65394f20effcc3fc",
+  "name" : "test_get_filters_payment_dev[9-2024-485]",
   "time" : {
-    "start" : 1733127427509,
-    "stop" : 1733127428310,
-    "duration" : 801
+    "start" : 1733127668525,
+    "stop" : 1733127669239,
+    "duration" : 714
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "219ccc7c3e9cb906",
+  "uid" : "1dbd20a25134f548",
+  "name" : "test_get_filters_payout_dev[8-2024-84]",
+  "time" : {
+    "start" : 1733127670112,
+    "stop" : 1733127670788,
+    "duration" : 676
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "db542787dd0c39e5",
+  "name" : "test_get_fin_stats_dev[10-2024-2]",
+  "time" : {
+    "start" : 1733127673638,
+    "stop" : 1733127674319,
+    "duration" : 681
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "eba36759c8b0576e",
+  "name" : "test_get_fin_stats_dev[8-2024-40]",
+  "time" : {
+    "start" : 1733127672232,
+    "stop" : 1733127672893,
+    "duration" : 661
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ccbd28f7df7477da",
+  "name" : "Тест запроса info для платежа",
+  "time" : {
+    "start" : 1733127674323,
+    "stop" : 1733127675001,
+    "duration" : 678
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d7e8e4f1a7b655f7",
   "name" : "test_get_fin_stats_dev[9-2024-775]",
   "time" : {
-    "start" : 1733127431013,
-    "stop" : 1733127431631,
-    "duration" : 618
+    "start" : 1733127672898,
+    "stop" : 1733127673634,
+    "duration" : 736
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "2d98e448976ac78e",
+  "uid" : "59ad3107067fb6d9",
+  "name" : "Тест изменения пароля",
+  "time" : {
+    "start" : 1733127666783,
+    "stop" : 1733127667666,
+    "duration" : 883
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "596f80904540ef96",
+  "name" : "test_get_filters_payment_dev[10-2024-498]",
+  "time" : {
+    "start" : 1733127669243,
+    "stop" : 1733127670108,
+    "duration" : 865
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "89f98e1f9dcb831e",
+  "name" : "Тест смены пароля для юзера apexknight@yandex.ru",
+  "time" : {
+    "start" : 1733127700968,
+    "stop" : 1733127708403,
+    "duration" : 7435
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4c068da824faf6f6",
   "name" : "test_send_registry_dev[apex69knight@gmail.com-2024-09-01 00:00:00-2024-09-30 23:59:59-174-200-Starting send registry]",
   "time" : {
-    "start" : 1733127432968,
-    "stop" : 1733127433557,
-    "duration" : 589
+    "start" : 1733127675005,
+    "stop" : 1733127675692,
+    "duration" : 687
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7d18e3656172c70",
+  "name" : "test_get_filters_payout_dev[10-2024-56]",
+  "time" : {
+    "start" : 1733127671503,
+    "stop" : 1733127672228,
+    "duration" : 725
   },
   "status" : "passed",
   "severity" : "normal"
