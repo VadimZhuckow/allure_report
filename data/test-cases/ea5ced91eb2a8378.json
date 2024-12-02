@@ -1,13 +1,15 @@
 {
-  "uid" : "563fe6d9159b0557",
-  "name" : "test_get_filters_payout_dev[9-2024-933]",
-  "fullName" : "tests.api.tests_filters.test_filters_payout#test_get_filters_payout_dev",
-  "historyId" : "b4133ccebc93684819e837182e166e85",
+  "uid" : "ea5ced91eb2a8378",
+  "name" : "Тест изменения пароля",
+  "fullName" : "tests.api.test_password.test_change_password#test_change_pass_dev",
+  "historyId" : "4924d299a9f4c6649a9c17ed30febb0b",
   "time" : {
-    "start" : 1733127074412,
-    "stop" : 1733127075323,
-    "duration" : 911
+    "start" : 1733127221172,
+    "stop" : 1733127221923,
+    "duration" : 751
   },
+  "description" : "Тест проверяет запрос на смену пароля по API.",
+  "descriptionHtml" : "<p>Тест проверяет запрос на смену пароля по API.</p>\n",
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
@@ -16,10 +18,10 @@
   "retriesCount" : 0,
   "retriesStatusChange" : false,
   "beforeStages" : [ {
-    "name" : "timer",
+    "name" : "api_client_dev",
     "time" : {
-      "start" : 1733127074411,
-      "stop" : 1733127074411,
+      "start" : 1733127221171,
+      "stop" : 1733127221171,
       "duration" : 0
     },
     "status" : "passed",
@@ -31,10 +33,25 @@
     "shouldDisplayMessage" : false,
     "hasContent" : false
   }, {
-    "name" : "api_client_dev",
+    "name" : "timer",
     "time" : {
-      "start" : 1733127074411,
-      "stop" : 1733127074411,
+      "start" : 1733127221171,
+      "stop" : 1733127221171,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "security_api_dev",
+    "time" : {
+      "start" : 1733127221171,
+      "stop" : 1733127221171,
       "duration" : 0
     },
     "status" : "passed",
@@ -48,23 +65,8 @@
   }, {
     "name" : "log_test_parameters",
     "time" : {
-      "start" : 1733127074411,
-      "stop" : 1733127074411,
-      "duration" : 0
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
-  }, {
-    "name" : "filters_api_dev",
-    "time" : {
-      "start" : 1733127074412,
-      "stop" : 1733127074412,
+      "start" : 1733127221171,
+      "stop" : 1733127221171,
       "duration" : 0
     },
     "status" : "passed",
@@ -79,8 +81,8 @@
   "afterStages" : [ {
     "name" : "timer::0",
     "time" : {
-      "start" : 1733127075325,
-      "stop" : 1733127075325,
+      "start" : 1733127221925,
+      "stop" : 1733127221925,
       "duration" : 0
     },
     "status" : "passed",
@@ -96,23 +98,17 @@
     "name" : "tag",
     "value" : "dev"
   }, {
-    "name" : "tag",
-    "value" : "regress"
-  }, {
-    "name" : "tag",
-    "value" : "payment"
-  }, {
     "name" : "parentSuite",
-    "value" : "tests.api.tests_filters"
+    "value" : "tests.api.test_password"
   }, {
     "name" : "suite",
-    "value" : "test_filters_payout"
+    "value" : "test_change_password"
   }, {
     "name" : "host",
-    "value" : "fv-az1076-627"
+    "value" : "fv-az1666-39"
   }, {
     "name" : "thread",
-    "value" : "2155-MainThread"
+    "value" : "2190-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -121,21 +117,12 @@
     "value" : "cpython3"
   }, {
     "name" : "package",
-    "value" : "tests.api.tests_filters.test_filters_payout"
+    "value" : "tests.api.test_password.test_change_password"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
   } ],
-  "parameters" : [ {
-    "name" : "expected_count",
-    "value" : "933"
-  }, {
-    "name" : "month",
-    "value" : "9"
-  }, {
-    "name" : "year",
-    "value" : "2024"
-  } ],
+  "parameters" : [ ],
   "links" : [ ],
   "hidden" : false,
   "retry" : false,
@@ -143,8 +130,8 @@
     "severity" : "normal",
     "retries" : [ ],
     "categories" : [ ],
-    "tags" : [ "dev", "regress", "payment" ]
+    "tags" : [ "dev" ]
   },
-  "source" : "563fe6d9159b0557.json",
-  "parameterValues" : [ "933", "9", "2024" ]
+  "source" : "ea5ced91eb2a8378.json",
+  "parameterValues" : [ ]
 }
