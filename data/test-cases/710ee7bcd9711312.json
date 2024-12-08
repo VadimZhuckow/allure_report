@@ -1,12 +1,12 @@
 {
-  "uid" : "772db325ac5e0908",
-  "name" : "test_send_registry_dev[apex69knight@gmail.com-2024-09-01 00:00:00-2024-09-30 23:59:59-174-200-Starting send registry]",
-  "fullName" : "tests.api.tests_registry.test_send_registry#test_send_registry_dev",
-  "historyId" : "91a00621daf046a93d89c8f2297f1e78",
+  "uid" : "710ee7bcd9711312",
+  "name" : "test_get_filters_payout_dev[10-2024-56]",
+  "fullName" : "tests.api.tests_filters.test_filters_payout#test_get_filters_payout_dev",
+  "historyId" : "af8e33612bfff2389e90e027f181ad1d",
   "time" : {
-    "start" : 1733556130357,
-    "stop" : 1733556131399,
-    "duration" : 1042
+    "start" : 1733653892465,
+    "stop" : 1733653893060,
+    "duration" : 595
   },
   "status" : "passed",
   "flaky" : false,
@@ -16,10 +16,10 @@
   "retriesCount" : 0,
   "retriesStatusChange" : false,
   "beforeStages" : [ {
-    "name" : "timer",
+    "name" : "log_test_parameters",
     "time" : {
-      "start" : 1733556130356,
-      "stop" : 1733556130356,
+      "start" : 1733653892464,
+      "stop" : 1733653892464,
       "duration" : 0
     },
     "status" : "passed",
@@ -31,10 +31,10 @@
     "shouldDisplayMessage" : false,
     "hasContent" : false
   }, {
-    "name" : "registry_api_dev",
+    "name" : "timer",
     "time" : {
-      "start" : 1733556130356,
-      "stop" : 1733556130356,
+      "start" : 1733653892464,
+      "stop" : 1733653892464,
       "duration" : 0
     },
     "status" : "passed",
@@ -48,8 +48,8 @@
   }, {
     "name" : "api_client_dev",
     "time" : {
-      "start" : 1733556130356,
-      "stop" : 1733556130356,
+      "start" : 1733653892464,
+      "stop" : 1733653892464,
       "duration" : 0
     },
     "status" : "passed",
@@ -61,10 +61,10 @@
     "shouldDisplayMessage" : false,
     "hasContent" : false
   }, {
-    "name" : "log_test_parameters",
+    "name" : "filters_api_dev",
     "time" : {
-      "start" : 1733556130356,
-      "stop" : 1733556130356,
+      "start" : 1733653892465,
+      "stop" : 1733653892465,
       "duration" : 0
     },
     "status" : "passed",
@@ -79,8 +79,8 @@
   "afterStages" : [ {
     "name" : "timer::0",
     "time" : {
-      "start" : 1733556131401,
-      "stop" : 1733556131401,
+      "start" : 1733653893061,
+      "stop" : 1733653893061,
       "duration" : 0
     },
     "status" : "passed",
@@ -97,22 +97,22 @@
     "value" : "dev"
   }, {
     "name" : "tag",
-    "value" : "send_registry"
-  }, {
-    "name" : "tag",
     "value" : "regress"
   }, {
+    "name" : "tag",
+    "value" : "payment"
+  }, {
     "name" : "parentSuite",
-    "value" : "tests.api.tests_registry"
+    "value" : "tests.api.tests_filters"
   }, {
     "name" : "suite",
-    "value" : "test_send_registry"
+    "value" : "test_filters_payout"
   }, {
     "name" : "host",
-    "value" : "fv-az1798-929"
+    "value" : "fv-az1188-599"
   }, {
     "name" : "thread",
-    "value" : "2147-MainThread"
+    "value" : "2214-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -121,29 +121,20 @@
     "value" : "cpython3"
   }, {
     "name" : "package",
-    "value" : "tests.api.tests_registry.test_send_registry"
+    "value" : "tests.api.tests_filters.test_filters_payout"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
   } ],
   "parameters" : [ {
-    "name" : "date_from",
-    "value" : "'2024-09-01 00:00:00'"
+    "name" : "expected_count",
+    "value" : "56"
   }, {
-    "name" : "date_to",
-    "value" : "'2024-09-30 23:59:59'"
+    "name" : "month",
+    "value" : "10"
   }, {
-    "name" : "email",
-    "value" : "'apex69knight@gmail.com'"
-  }, {
-    "name" : "endpoint",
-    "value" : "174"
-  }, {
-    "name" : "expected_status",
-    "value" : "200"
-  }, {
-    "name" : "expected_substring",
-    "value" : "'Starting send registry'"
+    "name" : "year",
+    "value" : "2024"
   } ],
   "links" : [ ],
   "hidden" : false,
@@ -152,8 +143,8 @@
     "severity" : "normal",
     "retries" : [ ],
     "categories" : [ ],
-    "tags" : [ "dev", "regress", "send_registry" ]
+    "tags" : [ "dev", "regress", "payment" ]
   },
-  "source" : "772db325ac5e0908.json",
-  "parameterValues" : [ "'2024-09-01 00:00:00'", "'2024-09-30 23:59:59'", "'apex69knight@gmail.com'", "174", "200", "'Starting send registry'" ]
+  "source" : "710ee7bcd9711312.json",
+  "parameterValues" : [ "56", "10", "2024" ]
 }
