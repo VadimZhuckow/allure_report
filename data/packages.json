@@ -8,13 +8,13 @@
         "name" : "test_password.test_change_password",
         "children" : [ {
           "name" : "Тест изменения пароля",
-          "uid" : "65468ff0bce7b2f7",
+          "uid" : "34ff7f38ef9959e4",
           "parentUid" : "1c804d8603adc4f0bffe449f8362b2ea",
           "status" : "passed",
           "time" : {
-            "start" : 1733653888349,
-            "stop" : 1733653889171,
-            "duration" : 822
+            "start" : 1733729120226,
+            "stop" : 1733729121103,
+            "duration" : 877
           },
           "flaky" : false,
           "newFailed" : false,
@@ -31,13 +31,13 @@
           "name" : "test_filters_payment",
           "children" : [ {
             "name" : "test_get_filters_payment_dev[8-2024-239]",
-            "uid" : "3d4d99a3e2d8ccb3",
+            "uid" : "bd4e9078a6e36f46",
             "parentUid" : "58f16adab198fffcc5f7565cedeb4865",
             "status" : "passed",
             "time" : {
-              "start" : 1733653889175,
-              "stop" : 1733653889969,
-              "duration" : 794
+              "start" : 1733729121108,
+              "stop" : 1733729121941,
+              "duration" : 833
             },
             "flaky" : false,
             "newFailed" : false,
@@ -48,13 +48,13 @@
             "parameters" : [ "239", "8", "2024" ]
           }, {
             "name" : "test_get_filters_payment_dev[9-2024-485]",
-            "uid" : "6da2fc50e5595e60",
+            "uid" : "e85ab57e6bbb322c",
             "parentUid" : "58f16adab198fffcc5f7565cedeb4865",
             "status" : "passed",
             "time" : {
-              "start" : 1733653889974,
-              "stop" : 1733653890560,
-              "duration" : 586
+              "start" : 1733729121946,
+              "stop" : 1733729122604,
+              "duration" : 658
             },
             "flaky" : false,
             "newFailed" : false,
@@ -65,13 +65,13 @@
             "parameters" : [ "485", "9", "2024" ]
           }, {
             "name" : "test_get_filters_payment_dev[10-2024-498]",
-            "uid" : "8ba5af8abfa4bd4e",
+            "uid" : "c52cfba87b2d73b6",
             "parentUid" : "58f16adab198fffcc5f7565cedeb4865",
             "status" : "passed",
             "time" : {
-              "start" : 1733653890564,
-              "stop" : 1733653891291,
-              "duration" : 727
+              "start" : 1733729122610,
+              "stop" : 1733729123384,
+              "duration" : 774
             },
             "flaky" : false,
             "newFailed" : false,
@@ -86,13 +86,13 @@
           "name" : "test_filters_payout",
           "children" : [ {
             "name" : "test_get_filters_payout_dev[8-2024-84]",
-            "uid" : "ced8eb44a222683a",
+            "uid" : "9bf8986a93996278",
             "parentUid" : "afb2b4d18cf4a1f360879c99890dab0e",
             "status" : "passed",
             "time" : {
-              "start" : 1733653891295,
-              "stop" : 1733653891876,
-              "duration" : 581
+              "start" : 1733729123390,
+              "stop" : 1733729124031,
+              "duration" : 641
             },
             "flaky" : false,
             "newFailed" : false,
@@ -103,13 +103,13 @@
             "parameters" : [ "84", "8", "2024" ]
           }, {
             "name" : "test_get_filters_payout_dev[9-2024-933]",
-            "uid" : "144e3f3ca5c78a9",
+            "uid" : "7f9d6be91c83f9c5",
             "parentUid" : "afb2b4d18cf4a1f360879c99890dab0e",
             "status" : "passed",
             "time" : {
-              "start" : 1733653891880,
-              "stop" : 1733653892461,
-              "duration" : 581
+              "start" : 1733729124035,
+              "stop" : 1733729124718,
+              "duration" : 683
             },
             "flaky" : false,
             "newFailed" : false,
@@ -120,13 +120,13 @@
             "parameters" : [ "933", "9", "2024" ]
           }, {
             "name" : "test_get_filters_payout_dev[10-2024-56]",
-            "uid" : "710ee7bcd9711312",
+            "uid" : "54d00ad94eade8a1",
             "parentUid" : "afb2b4d18cf4a1f360879c99890dab0e",
             "status" : "passed",
             "time" : {
-              "start" : 1733653892465,
-              "stop" : 1733653893060,
-              "duration" : 595
+              "start" : 1733729124722,
+              "stop" : 1733729125334,
+              "duration" : 612
             },
             "flaky" : false,
             "newFailed" : false,
@@ -143,13 +143,13 @@
         "name" : "tests_fin_stats.test_fin_stats",
         "children" : [ {
           "name" : "test_get_fin_stats_dev[8-2024-40]",
-          "uid" : "b8f06fa523976c50",
+          "uid" : "e4e1240a425fc8c",
           "parentUid" : "eba29f4c635f08d775cfc08e1b993525",
           "status" : "passed",
           "time" : {
-            "start" : 1733653893064,
-            "stop" : 1733653893603,
-            "duration" : 539
+            "start" : 1733729125338,
+            "stop" : 1733729125934,
+            "duration" : 596
           },
           "flaky" : false,
           "newFailed" : false,
@@ -160,13 +160,13 @@
           "parameters" : [ "40", "8", "2024" ]
         }, {
           "name" : "test_get_fin_stats_dev[9-2024-775]",
-          "uid" : "154ac1c6f59ceadc",
+          "uid" : "cc4936b0f4b52b9f",
           "parentUid" : "eba29f4c635f08d775cfc08e1b993525",
           "status" : "passed",
           "time" : {
-            "start" : 1733653893607,
-            "stop" : 1733653894146,
-            "duration" : 539
+            "start" : 1733729125938,
+            "stop" : 1733729126570,
+            "duration" : 632
           },
           "flaky" : false,
           "newFailed" : false,
@@ -177,13 +177,13 @@
           "parameters" : [ "775", "9", "2024" ]
         }, {
           "name" : "test_get_fin_stats_dev[10-2024-2]",
-          "uid" : "2637a242a4b0d74e",
+          "uid" : "489fe07770c576ed",
           "parentUid" : "eba29f4c635f08d775cfc08e1b993525",
           "status" : "passed",
           "time" : {
-            "start" : 1733653894150,
-            "stop" : 1733653894662,
-            "duration" : 512
+            "start" : 1733729126575,
+            "stop" : 1733729127189,
+            "duration" : 614
           },
           "flaky" : false,
           "newFailed" : false,
@@ -198,13 +198,13 @@
         "name" : "tests_paymentgate.test_get_info_payment",
         "children" : [ {
           "name" : "Тест запроса info для платежа",
-          "uid" : "4b3b0b2239fb62ee",
+          "uid" : "133eb5150213632d",
           "parentUid" : "76afecdab125f710cc0a305b66bc291c",
           "status" : "passed",
           "time" : {
-            "start" : 1733653894666,
-            "stop" : 1733653895214,
-            "duration" : 548
+            "start" : 1733729127193,
+            "stop" : 1733729127808,
+            "duration" : 615
           },
           "flaky" : false,
           "newFailed" : false,
@@ -219,13 +219,13 @@
         "name" : "tests_registry.test_send_registry",
         "children" : [ {
           "name" : "test_send_registry_dev[apex69knight@gmail.com-2024-09-01 00:00:00-2024-09-30 23:59:59-174-200-Starting send registry]",
-          "uid" : "c3ea1041cda80906",
+          "uid" : "bf00d3d937fc0043",
           "parentUid" : "8d3db37e962c62f2f06a53add7c1e9e0",
           "status" : "passed",
           "time" : {
-            "start" : 1733653895218,
-            "stop" : 1733653895841,
-            "duration" : 623
+            "start" : 1733729127812,
+            "stop" : 1733729128431,
+            "duration" : 619
           },
           "flaky" : false,
           "newFailed" : false,
@@ -244,13 +244,13 @@
         "name" : "auth.test_login",
         "children" : [ {
           "name" : "Тест логина для юзера apexknight@yandex.ru в окружении dev",
-          "uid" : "246b5e90523eec70",
+          "uid" : "9c6434fd7d34c91c",
           "parentUid" : "f99cbe5b971f5858d5d6384f96c280fe",
           "status" : "passed",
           "time" : {
-            "start" : 1733653910761,
-            "stop" : 1733653921341,
-            "duration" : 10580
+            "start" : 1733729144315,
+            "stop" : 1733729155088,
+            "duration" : 10773
           },
           "flaky" : false,
           "newFailed" : false,
@@ -265,13 +265,13 @@
         "name" : "change_password.test_change_password",
         "children" : [ {
           "name" : "Тест смены пароля для юзера apexknight@yandex.ru",
-          "uid" : "69f1de5ba03aa0d7",
+          "uid" : "86105c7548f4fa44",
           "parentUid" : "6ad48fc9eda6989df4de9b81ace4c732",
           "status" : "passed",
           "time" : {
-            "start" : 1733653923845,
-            "stop" : 1733653930106,
-            "duration" : 6261
+            "start" : 1733729157686,
+            "stop" : 1733729164838,
+            "duration" : 7152
           },
           "flaky" : false,
           "newFailed" : false,
