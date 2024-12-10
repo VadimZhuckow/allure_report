@@ -1,140 +1,140 @@
 [ {
-  "uid" : "133eb5150213632d",
-  "name" : "Тест запроса info для платежа",
-  "time" : {
-    "start" : 1733729127193,
-    "stop" : 1733729127808,
-    "duration" : 615
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "7f9d6be91c83f9c5",
-  "name" : "test_get_filters_payout_dev[9-2024-933]",
-  "time" : {
-    "start" : 1733729124035,
-    "stop" : 1733729124718,
-    "duration" : 683
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "54d00ad94eade8a1",
-  "name" : "test_get_filters_payout_dev[10-2024-56]",
-  "time" : {
-    "start" : 1733729124722,
-    "stop" : 1733729125334,
-    "duration" : 612
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "bf00d3d937fc0043",
-  "name" : "test_send_registry_dev[apex69knight@gmail.com-2024-09-01 00:00:00-2024-09-30 23:59:59-174-200-Starting send registry]",
-  "time" : {
-    "start" : 1733729127812,
-    "stop" : 1733729128431,
-    "duration" : 619
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "bd4e9078a6e36f46",
+  "uid" : "c991f0c797326b8e",
   "name" : "test_get_filters_payment_dev[8-2024-239]",
   "time" : {
-    "start" : 1733729121108,
-    "stop" : 1733729121941,
-    "duration" : 833
+    "start" : 1733815486797,
+    "stop" : 1733815487603,
+    "duration" : 806
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "86105c7548f4fa44",
-  "name" : "Тест смены пароля для юзера apexknight@yandex.ru",
-  "time" : {
-    "start" : 1733729157686,
-    "stop" : 1733729164838,
-    "duration" : 7152
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "34ff7f38ef9959e4",
-  "name" : "Тест изменения пароля",
-  "time" : {
-    "start" : 1733729120226,
-    "stop" : 1733729121103,
-    "duration" : 877
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "e4e1240a425fc8c",
-  "name" : "test_get_fin_stats_dev[8-2024-40]",
-  "time" : {
-    "start" : 1733729125338,
-    "stop" : 1733729125934,
-    "duration" : 596
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "cc4936b0f4b52b9f",
-  "name" : "test_get_fin_stats_dev[9-2024-775]",
-  "time" : {
-    "start" : 1733729125938,
-    "stop" : 1733729126570,
-    "duration" : 632
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "9c6434fd7d34c91c",
+  "uid" : "95fd02b8ce1c5c8d",
   "name" : "Тест логина для юзера apexknight@yandex.ru в окружении dev",
   "time" : {
-    "start" : 1733729144315,
-    "stop" : 1733729155088,
-    "duration" : 10773
+    "start" : 1733815506057,
+    "stop" : 1733815516767,
+    "duration" : 10710
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "9bf8986a93996278",
+  "uid" : "7f833d1fecba9054",
+  "name" : "Тест запроса info для платежа",
+  "time" : {
+    "start" : 1733815493382,
+    "stop" : 1733815494030,
+    "duration" : 648
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dddee83000156c78",
+  "name" : "test_get_filters_payout_dev[9-2024-933]",
+  "time" : {
+    "start" : 1733815489919,
+    "stop" : 1733815490638,
+    "duration" : 719
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8aa62dd249470032",
+  "name" : "Тест изменения пароля",
+  "time" : {
+    "start" : 1733815485866,
+    "stop" : 1733815486792,
+    "duration" : 926
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "957a0466e23ad653",
+  "name" : "test_get_fin_stats_dev[8-2024-40]",
+  "time" : {
+    "start" : 1733815491322,
+    "stop" : 1733815491990,
+    "duration" : 668
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "61ead9bb4f39c936",
+  "name" : "test_get_fin_stats_dev[9-2024-775]",
+  "time" : {
+    "start" : 1733815491994,
+    "stop" : 1733815492740,
+    "duration" : 746
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6262793251f99423",
   "name" : "test_get_filters_payout_dev[8-2024-84]",
   "time" : {
-    "start" : 1733729123390,
-    "stop" : 1733729124031,
-    "duration" : 641
+    "start" : 1733815489233,
+    "stop" : 1733815489915,
+    "duration" : 682
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "c52cfba87b2d73b6",
-  "name" : "test_get_filters_payment_dev[10-2024-498]",
-  "time" : {
-    "start" : 1733729122610,
-    "stop" : 1733729123384,
-    "duration" : 774
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "489fe07770c576ed",
+  "uid" : "7e2b530b51cb0962",
   "name" : "test_get_fin_stats_dev[10-2024-2]",
   "time" : {
-    "start" : 1733729126575,
-    "stop" : 1733729127189,
-    "duration" : 614
+    "start" : 1733815492744,
+    "stop" : 1733815493378,
+    "duration" : 634
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "e85ab57e6bbb322c",
+  "uid" : "19576c3695db5f85",
+  "name" : "Тест смены пароля для юзера apexknight@yandex.ru",
+  "time" : {
+    "start" : 1733815519438,
+    "stop" : 1733815526305,
+    "duration" : 6867
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e70f2038741b6d1b",
+  "name" : "test_send_registry_dev[apex69knight@gmail.com-2024-09-01 00:00:00-2024-09-30 23:59:59-174-200-Starting send registry]",
+  "time" : {
+    "start" : 1733815494034,
+    "stop" : 1733815494709,
+    "duration" : 675
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d42483f3ec68cc15",
+  "name" : "test_get_filters_payment_dev[10-2024-498]",
+  "time" : {
+    "start" : 1733815488326,
+    "stop" : 1733815489227,
+    "duration" : 901
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bf5400e611c2b081",
+  "name" : "test_get_filters_payout_dev[10-2024-56]",
+  "time" : {
+    "start" : 1733815490642,
+    "stop" : 1733815491318,
+    "duration" : 676
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bc4d75a6938ec0dd",
   "name" : "test_get_filters_payment_dev[9-2024-485]",
   "time" : {
-    "start" : 1733729121946,
-    "stop" : 1733729122604,
-    "duration" : 658
+    "start" : 1733815487608,
+    "stop" : 1733815488322,
+    "duration" : 714
   },
   "status" : "passed",
   "severity" : "normal"
