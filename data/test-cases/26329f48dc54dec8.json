@@ -1,12 +1,12 @@
 {
-  "uid" : "dddee83000156c78",
+  "uid" : "26329f48dc54dec8",
   "name" : "test_get_filters_payout_dev[9-2024-933]",
   "fullName" : "tests.api.tests_filters.test_filters_payout#test_get_filters_payout_dev",
   "historyId" : "b4133ccebc93684819e837182e166e85",
   "time" : {
-    "start" : 1733815489919,
-    "stop" : 1733815490638,
-    "duration" : 719
+    "start" : 1733900628721,
+    "stop" : 1733900629339,
+    "duration" : 618
   },
   "status" : "passed",
   "flaky" : false,
@@ -16,10 +16,25 @@
   "retriesCount" : 0,
   "retriesStatusChange" : false,
   "beforeStages" : [ {
+    "name" : "filters_api_dev",
+    "time" : {
+      "start" : 1733900628720,
+      "stop" : 1733900628720,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
     "name" : "api_client_dev",
     "time" : {
-      "start" : 1733815489918,
-      "stop" : 1733815489918,
+      "start" : 1733900628720,
+      "stop" : 1733900628720,
       "duration" : 0
     },
     "status" : "passed",
@@ -33,8 +48,8 @@
   }, {
     "name" : "timer",
     "time" : {
-      "start" : 1733815489918,
-      "stop" : 1733815489918,
+      "start" : 1733900628720,
+      "stop" : 1733900628720,
       "duration" : 0
     },
     "status" : "passed",
@@ -48,23 +63,8 @@
   }, {
     "name" : "log_test_parameters",
     "time" : {
-      "start" : 1733815489918,
-      "stop" : 1733815489918,
-      "duration" : 0
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
-  }, {
-    "name" : "filters_api_dev",
-    "time" : {
-      "start" : 1733815489918,
-      "stop" : 1733815489918,
+      "start" : 1733900628720,
+      "stop" : 1733900628720,
       "duration" : 0
     },
     "status" : "passed",
@@ -79,8 +79,8 @@
   "afterStages" : [ {
     "name" : "timer::0",
     "time" : {
-      "start" : 1733815490640,
-      "stop" : 1733815490640,
+      "start" : 1733900629340,
+      "stop" : 1733900629340,
       "duration" : 0
     },
     "status" : "passed",
@@ -109,10 +109,10 @@
     "value" : "test_filters_payout"
   }, {
     "name" : "host",
-    "value" : "fv-az1750-818"
+    "value" : "fv-az1768-955"
   }, {
     "name" : "thread",
-    "value" : "2269-MainThread"
+    "value" : "2264-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -145,6 +145,6 @@
     "categories" : [ ],
     "tags" : [ "dev", "regress", "payment" ]
   },
-  "source" : "dddee83000156c78.json",
+  "source" : "26329f48dc54dec8.json",
   "parameterValues" : [ "933", "9", "2024" ]
 }
