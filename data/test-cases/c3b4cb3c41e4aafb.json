@@ -1,12 +1,12 @@
 {
-  "uid" : "f87ef71786cf52e5",
+  "uid" : "c3b4cb3c41e4aafb",
   "name" : "test_get_filters_payment_dev[9-2024-485]",
   "fullName" : "tests.api.tests_filters.test_filters_payment#test_get_filters_payment_dev",
   "historyId" : "fa84d654766ee589bf8e546787fa8471",
   "time" : {
-    "start" : 1733988199758,
-    "stop" : 1733988200625,
-    "duration" : 867
+    "start" : 1734074558842,
+    "stop" : 1734074559684,
+    "duration" : 842
   },
   "status" : "passed",
   "flaky" : false,
@@ -16,11 +16,11 @@
   "retriesCount" : 0,
   "retriesStatusChange" : false,
   "beforeStages" : [ {
-    "name" : "log_test_parameters",
+    "name" : "api_client_dev",
     "time" : {
-      "start" : 1733988199756,
-      "stop" : 1733988199757,
-      "duration" : 1
+      "start" : 1734074558841,
+      "stop" : 1734074558841,
+      "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
@@ -33,8 +33,8 @@
   }, {
     "name" : "timer",
     "time" : {
-      "start" : 1733988199757,
-      "stop" : 1733988199757,
+      "start" : 1734074558841,
+      "stop" : 1734074558841,
       "duration" : 0
     },
     "status" : "passed",
@@ -46,10 +46,10 @@
     "shouldDisplayMessage" : false,
     "hasContent" : false
   }, {
-    "name" : "api_client_dev",
+    "name" : "log_test_parameters",
     "time" : {
-      "start" : 1733988199757,
-      "stop" : 1733988199757,
+      "start" : 1734074558841,
+      "stop" : 1734074558841,
       "duration" : 0
     },
     "status" : "passed",
@@ -63,8 +63,8 @@
   }, {
     "name" : "filters_api_dev",
     "time" : {
-      "start" : 1733988199757,
-      "stop" : 1733988199757,
+      "start" : 1734074558841,
+      "stop" : 1734074558841,
       "duration" : 0
     },
     "status" : "passed",
@@ -79,8 +79,8 @@
   "afterStages" : [ {
     "name" : "timer::0",
     "time" : {
-      "start" : 1733988200627,
-      "stop" : 1733988200627,
+      "start" : 1734074559686,
+      "stop" : 1734074559686,
       "duration" : 0
     },
     "status" : "passed",
@@ -103,10 +103,10 @@
     "value" : "test_filters_payment"
   }, {
     "name" : "host",
-    "value" : "fv-az1181-651"
+    "value" : "fv-az960-420"
   }, {
     "name" : "thread",
-    "value" : "2168-MainThread"
+    "value" : "2147-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -139,6 +139,6 @@
     "categories" : [ ],
     "tags" : [ "dev" ]
   },
-  "source" : "f87ef71786cf52e5.json",
+  "source" : "c3b4cb3c41e4aafb.json",
   "parameterValues" : [ "485", "9", "2024" ]
 }
