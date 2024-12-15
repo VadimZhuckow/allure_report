@@ -1,12 +1,12 @@
 {
-  "uid" : "f104153e31bfbcab",
-  "name" : "test_get_filters_payout_dev[9-2024-933]",
-  "fullName" : "tests.api.tests_filters.test_filters_payout#test_get_filters_payout_dev",
-  "historyId" : "b4133ccebc93684819e837182e166e85",
+  "uid" : "1399cf34ef0c318e",
+  "name" : "test_send_registry_dev[apex69knight@gmail.com-2024-09-01 00:00:00-2024-09-30 23:59:59-174-200-Starting send registry]",
+  "fullName" : "tests.api.tests_registry.test_send_registry#test_send_registry_dev",
+  "historyId" : "91a00621daf046a93d89c8f2297f1e78",
   "time" : {
-    "start" : 1734160822203,
-    "stop" : 1734160822813,
-    "duration" : 610
+    "start" : 1734247261126,
+    "stop" : 1734247261831,
+    "duration" : 705
   },
   "status" : "passed",
   "flaky" : false,
@@ -16,26 +16,11 @@
   "retriesCount" : 0,
   "retriesStatusChange" : false,
   "beforeStages" : [ {
-    "name" : "api_client_dev",
+    "name" : "log_test_parameters",
     "time" : {
-      "start" : 1734160822202,
-      "stop" : 1734160822202,
+      "start" : 1734247261125,
+      "stop" : 1734247261125,
       "duration" : 0
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
-  }, {
-    "name" : "filters_api_dev",
-    "time" : {
-      "start" : 1734160822202,
-      "stop" : 1734160822203,
-      "duration" : 1
     },
     "status" : "passed",
     "steps" : [ ],
@@ -48,8 +33,23 @@
   }, {
     "name" : "timer",
     "time" : {
-      "start" : 1734160822202,
-      "stop" : 1734160822202,
+      "start" : 1734247261125,
+      "stop" : 1734247261126,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "registry_api_dev",
+    "time" : {
+      "start" : 1734247261126,
+      "stop" : 1734247261126,
       "duration" : 0
     },
     "status" : "passed",
@@ -61,10 +61,10 @@
     "shouldDisplayMessage" : false,
     "hasContent" : false
   }, {
-    "name" : "log_test_parameters",
+    "name" : "api_client_dev",
     "time" : {
-      "start" : 1734160822202,
-      "stop" : 1734160822202,
+      "start" : 1734247261126,
+      "stop" : 1734247261126,
       "duration" : 0
     },
     "status" : "passed",
@@ -79,8 +79,8 @@
   "afterStages" : [ {
     "name" : "timer::0",
     "time" : {
-      "start" : 1734160822815,
-      "stop" : 1734160822815,
+      "start" : 1734247261833,
+      "stop" : 1734247261833,
       "duration" : 0
     },
     "status" : "passed",
@@ -97,22 +97,22 @@
     "value" : "dev"
   }, {
     "name" : "tag",
-    "value" : "regress"
+    "value" : "send_registry"
   }, {
     "name" : "tag",
-    "value" : "payment"
+    "value" : "regress"
   }, {
     "name" : "parentSuite",
-    "value" : "tests.api.tests_filters"
+    "value" : "tests.api.tests_registry"
   }, {
     "name" : "suite",
-    "value" : "test_filters_payout"
+    "value" : "test_send_registry"
   }, {
     "name" : "host",
-    "value" : "fv-az1972-44"
+    "value" : "fv-az1702-725"
   }, {
     "name" : "thread",
-    "value" : "2174-MainThread"
+    "value" : "2211-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -121,20 +121,29 @@
     "value" : "cpython3"
   }, {
     "name" : "package",
-    "value" : "tests.api.tests_filters.test_filters_payout"
+    "value" : "tests.api.tests_registry.test_send_registry"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
   } ],
   "parameters" : [ {
-    "name" : "expected_count",
-    "value" : "933"
+    "name" : "date_from",
+    "value" : "'2024-09-01 00:00:00'"
   }, {
-    "name" : "month",
-    "value" : "9"
+    "name" : "date_to",
+    "value" : "'2024-09-30 23:59:59'"
   }, {
-    "name" : "year",
-    "value" : "2024"
+    "name" : "email",
+    "value" : "'apex69knight@gmail.com'"
+  }, {
+    "name" : "endpoint",
+    "value" : "174"
+  }, {
+    "name" : "expected_status",
+    "value" : "200"
+  }, {
+    "name" : "expected_substring",
+    "value" : "'Starting send registry'"
   } ],
   "links" : [ ],
   "hidden" : false,
@@ -143,8 +152,8 @@
     "severity" : "normal",
     "retries" : [ ],
     "categories" : [ ],
-    "tags" : [ "dev", "regress", "payment" ]
+    "tags" : [ "dev", "regress", "send_registry" ]
   },
-  "source" : "f104153e31bfbcab.json",
-  "parameterValues" : [ "933", "9", "2024" ]
+  "source" : "1399cf34ef0c318e.json",
+  "parameterValues" : [ "'2024-09-01 00:00:00'", "'2024-09-30 23:59:59'", "'apex69knight@gmail.com'", "174", "200", "'Starting send registry'" ]
 }
