@@ -1,0 +1,66 @@
+{
+  "uid" : "2ff7b6f552839ba6",
+  "name" : "test_site_availability[api-https://api.payplanet.com/api/v1/common/currency/]",
+  "fullName" : "tests.availability.test_availability#test_site_availability",
+  "historyId" : "51a3f0698772a135b74603af95e434f7",
+  "time" : {
+    "start" : 1734683299264,
+    "stop" : 1734683300020,
+    "duration" : 756
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "dev"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests.availability"
+  }, {
+    "name" : "suite",
+    "value" : "test_availability"
+  }, {
+    "name" : "host",
+    "value" : "fv-az1947-898"
+  }, {
+    "name" : "thread",
+    "value" : "2171-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.availability.test_availability"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "name",
+    "value" : "'api'"
+  }, {
+    "name" : "url",
+    "value" : "'https://api.payplanet.com/api/v1/common/currency/'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "dev" ]
+  },
+  "source" : "2ff7b6f552839ba6.json",
+  "parameterValues" : [ "'api'", "'https://api.payplanet.com/api/v1/common/currency/'" ]
+}

@@ -1,5 +1,5 @@
 {
-  "total" : 7,
+  "total" : 8,
   "items" : [ {
     "uid" : "63d734137becb7a4767f670be37f45bb",
     "name" : "tests.api.tests_filters",
@@ -21,6 +21,17 @@
       "passed" : 3,
       "unknown" : 0,
       "total" : 3
+    }
+  }, {
+    "uid" : "8365c8329b7a9ef721b14082ccf867ce",
+    "name" : "tests.availability",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
     }
   }, {
     "uid" : "aa96935edd0528c30e9b88df1ee09e74",
