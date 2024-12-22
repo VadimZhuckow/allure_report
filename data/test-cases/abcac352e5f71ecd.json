@@ -1,12 +1,12 @@
 {
-  "uid" : "62e7d77b5503ede6",
+  "uid" : "abcac352e5f71ecd",
   "name" : "test_site_availability[site-https://payplanet.com/]",
   "fullName" : "tests.availability.test_availability#test_site_availability",
   "historyId" : "c238bc1262daaa33911a19b1855e41b1",
   "time" : {
-    "start" : 1734765511613,
-    "stop" : 1734765512823,
-    "duration" : 1210
+    "start" : 1734851917715,
+    "stop" : 1734851918506,
+    "duration" : 791
   },
   "status" : "passed",
   "flaky" : false,
@@ -28,10 +28,10 @@
     "value" : "test_availability"
   }, {
     "name" : "host",
-    "value" : "fv-az1706-780"
+    "value" : "fv-az1968-354"
   }, {
     "name" : "thread",
-    "value" : "2189-MainThread"
+    "value" : "2163-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -61,6 +61,6 @@
     "categories" : [ ],
     "tags" : [ "dev" ]
   },
-  "source" : "62e7d77b5503ede6.json",
+  "source" : "abcac352e5f71ecd.json",
   "parameterValues" : [ "'site'", "'https://payplanet.com/'" ]
 }
