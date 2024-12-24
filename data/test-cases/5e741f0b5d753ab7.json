@@ -1,12 +1,12 @@
 {
-  "uid" : "a906d7773003c6f5",
+  "uid" : "5e741f0b5d753ab7",
   "name" : "test_site_availability[api-https://api.payplanet.com/api/v1/common/currency/]",
   "fullName" : "tests.availability.test_availability#test_site_availability",
   "historyId" : "51a3f0698772a135b74603af95e434f7",
   "time" : {
-    "start" : 1734938465290,
-    "stop" : 1734938466573,
-    "duration" : 1283
+    "start" : 1735024820335,
+    "stop" : 1735024821137,
+    "duration" : 802
   },
   "status" : "passed",
   "flaky" : false,
@@ -28,10 +28,10 @@
     "value" : "test_availability"
   }, {
     "name" : "host",
-    "value" : "fv-az1701-23"
+    "value" : "fv-az1425-389"
   }, {
     "name" : "thread",
-    "value" : "2155-MainThread"
+    "value" : "2158-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -61,6 +61,6 @@
     "categories" : [ ],
     "tags" : [ "dev" ]
   },
-  "source" : "a906d7773003c6f5.json",
+  "source" : "5e741f0b5d753ab7.json",
   "parameterValues" : [ "'api'", "'https://api.payplanet.com/api/v1/common/currency/'" ]
 }

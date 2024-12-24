@@ -1,15 +1,13 @@
 {
-  "uid" : "b3d885fba57f3cf4",
-  "name" : "Тест изменения пароля",
-  "fullName" : "tests.api.test_password.test_change_password#test_change_pass_dev",
-  "historyId" : "4924d299a9f4c6649a9c17ed30febb0b",
+  "uid" : "d12bd5d338855155",
+  "name" : "test_get_filters_payout_dev[10-2024-56]",
+  "fullName" : "tests.api.tests_filters.test_filters_payout#test_get_filters_payout_dev",
+  "historyId" : "af8e33612bfff2389e90e027f181ad1d",
   "time" : {
-    "start" : 1734938453156,
-    "stop" : 1734938454242,
-    "duration" : 1086
+    "start" : 1735024816316,
+    "stop" : 1735024816884,
+    "duration" : 568
   },
-  "description" : "Тест проверяет запрос на смену пароля по API.",
-  "descriptionHtml" : "<p>Тест проверяет запрос на смену пароля по API.</p>\n",
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
@@ -18,26 +16,11 @@
   "retriesCount" : 0,
   "retriesStatusChange" : false,
   "beforeStages" : [ {
-    "name" : "security_api_dev",
-    "time" : {
-      "start" : 1734938453155,
-      "stop" : 1734938453155,
-      "duration" : 0
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
-  }, {
     "name" : "timer",
     "time" : {
-      "start" : 1734938453155,
-      "stop" : 1734938453155,
-      "duration" : 0
+      "start" : 1735024816315,
+      "stop" : 1735024816316,
+      "duration" : 1
     },
     "status" : "passed",
     "steps" : [ ],
@@ -50,8 +33,8 @@
   }, {
     "name" : "log_test_parameters",
     "time" : {
-      "start" : 1734938453155,
-      "stop" : 1734938453155,
+      "start" : 1735024816315,
+      "stop" : 1735024816315,
       "duration" : 0
     },
     "status" : "passed",
@@ -65,8 +48,23 @@
   }, {
     "name" : "api_client_dev",
     "time" : {
-      "start" : 1734938453155,
-      "stop" : 1734938453155,
+      "start" : 1735024816316,
+      "stop" : 1735024816316,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "filters_api_dev",
+    "time" : {
+      "start" : 1735024816316,
+      "stop" : 1735024816316,
       "duration" : 0
     },
     "status" : "passed",
@@ -81,8 +79,8 @@
   "afterStages" : [ {
     "name" : "timer::0",
     "time" : {
-      "start" : 1734938454243,
-      "stop" : 1734938454243,
+      "start" : 1735024816885,
+      "stop" : 1735024816885,
       "duration" : 0
     },
     "status" : "passed",
@@ -98,17 +96,23 @@
     "name" : "tag",
     "value" : "dev"
   }, {
+    "name" : "tag",
+    "value" : "regress"
+  }, {
+    "name" : "tag",
+    "value" : "payment"
+  }, {
     "name" : "parentSuite",
-    "value" : "tests.api.test_password"
+    "value" : "tests.api.tests_filters"
   }, {
     "name" : "suite",
-    "value" : "test_change_password"
+    "value" : "test_filters_payout"
   }, {
     "name" : "host",
-    "value" : "fv-az1701-23"
+    "value" : "fv-az1425-389"
   }, {
     "name" : "thread",
-    "value" : "2155-MainThread"
+    "value" : "2158-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -117,12 +121,21 @@
     "value" : "cpython3"
   }, {
     "name" : "package",
-    "value" : "tests.api.test_password.test_change_password"
+    "value" : "tests.api.tests_filters.test_filters_payout"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
   } ],
-  "parameters" : [ ],
+  "parameters" : [ {
+    "name" : "expected_count",
+    "value" : "56"
+  }, {
+    "name" : "month",
+    "value" : "10"
+  }, {
+    "name" : "year",
+    "value" : "2024"
+  } ],
   "links" : [ ],
   "hidden" : false,
   "retry" : false,
@@ -130,8 +143,8 @@
     "severity" : "normal",
     "retries" : [ ],
     "categories" : [ ],
-    "tags" : [ "dev" ]
+    "tags" : [ "dev", "regress", "payment" ]
   },
-  "source" : "b3d885fba57f3cf4.json",
-  "parameterValues" : [ ]
+  "source" : "d12bd5d338855155.json",
+  "parameterValues" : [ "56", "10", "2024" ]
 }
